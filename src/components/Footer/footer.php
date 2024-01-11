@@ -13,41 +13,39 @@
                     </span>
                 </div>
                 <div class="footer-column">
-                    <div class="footer-title">Quick Links</div>
+                    <div class="footer-title">Academics</div>
                     <ul>
-                        <li><a target="_blank" rel="noreferrer" href="https://www.annauniv.edu/pdf/Acts%20&%20Statues-New.pdf">Act & Statuses</a></li>
-                        <li><a target="_blank" rel="noreferrer" href="https://www.annauniv.edu/IQAC/">Mandatory Disclosure</a></li>
-                        <li><a target="_blank" rel="noreferrer" href="https://gverify.annauniv.edu/">Genuiness Verification</a></li>
-                        <li><a target="_blank" rel="noreferrer" href="https://www.annauniv.edu/nirf.php">NIRF</a></li>
-                        <li><a target="_blank" rel="noreferrer" href="https://www.annauniv.edu/events.php">Notifications</a></li>
+                        <li><a target="_blank" rel="noreferrer" href="https://mitindia.edu/en/courses">Academic Courses</a></li>
+                        <li><a target="_blank" rel="noreferrer" href="https://acoe.annauniv.edu/">ACOE</a></li>
+                        <li><a target="_blank" rel="noreferrer" href="">Academic Schedules</a></li>
+                        <li><a target="_blank" rel="noreferrer" href="http://ctdt.annauniv.edu/">Centre for Research</a></li>
+                        <li><a target="_blank" rel="noreferrer" href="http://fbonline.annauniv.edu:8080/fb/fb.jsp">Students Feedback</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
-                    <div class="footer-title">Quick Links</div>
+                    <div class="footer-title">Administration</div>
                     <ul>
-                        <li><a target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScrI2aIZGcv7FyhvQL-0bwJCliULY0dShhKLe7VEQXNT00Bpw/viewform">Student Grievance Redressal</a></li>
-                        <li><a target="_blank" rel="noreferrer" href="http://www.mhrdnats.gov.in/">NATS</a></li>
-                        <li><a target="_blank" rel="noreferrer" href="https://www.annauniv.edu/POSH/index.php">POSH</a></li>
-                        <li><a target="_blank" rel="noreferrer" href="https://onlineservices.annauniv.edu/">AUSOS</a></li>
-                        <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/@annauniversity5270">YouTube</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <div class="footer-title">Anna University</div>
-                    <ul>
-                        <li><a target="_blank" rel="noreferrer" href="https://annauniv.edu/">Anna University Home</a></li>
-                        <li><a target="_blank" rel="noreferrer" href="https://www.annauniv.edu/univdept.php">University Departments</a></li>
-                        <li><a target="_blank" rel="noreferrer" href="http://10.11.80.135/onlinepayslip/">Payslip</a></li>
-                        <li><a target="_blank" rel="noreferrer" href="https://fb.annauniv.edu/fbreport/index.php">Feedback Portal</a></li>
+                        <li><a target="_blank" rel="noreferrer" href="https://annauniv.irins.org/profile/43400">Dean</a></li>
+                        <li><a target="_blank" rel="noreferrer" href="https://mitindia.edu/en/administration/office-page">People</a></li>
+                        <li><a target="_blank" rel="noreferrer" href="https://mitindia.edu/en/all-departments">Departments</a></li>
+                        <li><a target="_blank" rel="noreferrer" href="https://www.annauniv.edu/pdf/Acts%20&%20Statues-New.pdf">Acts & Statues</a></li>
+                        <li><a target="_blank" rel="noreferrer" href="https://iqac.annauniv.edu/">Mandatory Disclosure</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
                     <div class="footer-title">Downloads</div>
                     <ul>
-                        <li><a target="_blank" rel="noreferrer" href="https://forms.gle/gD3DNmrBR6TqDdCD7">Wi-Fi Registration Form</a></li>
-                        <li><a target="_blank" rel="noreferrer" href="https://www.annauniv.edu/rcc/pdf/form%20creating%20MS%20teams.pdf">MS Teams ID Requisition Form</a></li>
-                        <li><a target="_blank" rel="noreferrer" href="http://fbonline.annauniv.edu:8080/fb/fb.jsp">Students Feedback Form</a></li>
-                        <li><a target="_blank" rel="noreferrer" href="http://bit.ly/mitcccbf">Internet Complaint Booking</a></li>
+                        <li><a target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSdfAkiupN8aSNQynN383_njOlsF-E_UWQY50S0DHOGLSzcxBw/viewform">WiFi Registration</a></li>
+                        <li><a target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSdccEYSatG7fShAYwLMJ0hwvfvtDtW_cc00ZpGliYpfeYzhBA/viewform">Network Issues</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <div class="footer-title">Facilities</div>
+                    <ul>
+                        <li><a target="_blank" rel="noreferrer" href="https://cc.mitindia.edu/">Computer Centre</a></li>
+                        <li><a target="_blank" rel="noreferrer" href="">Library</a></li>
+                        <li><a target="_blank" rel="noreferrer" href="">Health Centre</a></li>
+                        <li><a target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScrI2aIZGcv7FyhvQL-0bwJCliULY0dShhKLe7VEQXNT00Bpw/viewform">Student Grievance Redressal</a></li>
                     </ul>
                 </div>
             </div>
