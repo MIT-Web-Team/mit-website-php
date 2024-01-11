@@ -12,12 +12,13 @@ p {
 }
 
 footer {
-  background-color: #525fe1;
-  color: #ffffff;
-  line-height: 1.5;
-  font-size: "Inter", sans-serif;;
+    background-color: #525fe1;
+    color: #ffffff;
+    line-height: 1.5;
+    font-size: 14px; 
+    margin-top: auto; 
 }
-  
+
 .footer-container {
     flex: 1;
 }
