@@ -37,7 +37,7 @@
   padding: 75px 75px;
   z-index: 1;
   width: 130%;
-
+  font-family: 'Inter', sans-serif;
   /* border: red solid; */
 }
 .deanContent .deanTitle {
@@ -47,7 +47,7 @@
   display: flex;
   flex-direction: column;
   text-transform: capitalize;
-
+  font-family: 'Inter', sans-serif;
   @media only screen and (max-width: 910px) {
     font-size: 35px;
   }
@@ -64,6 +64,10 @@
   gap: 10px;
   line-height: 1.5;
   text-align: justify;
+}
+
+.deanQuoteContent {
+  margin-left: 0px;
 }
 .deanContent > .flex-row {
   display: flex;
@@ -155,7 +159,7 @@
     height: 418px;
   }
 
-  .deanMain .deanContent {
-    /* margin-top: 100px; */
-  }
+  /* .deanMain .deanContent {
+     margin-top: 100px; 
+  } */
 }
