@@ -1,7 +1,7 @@
 <head>
-    <link rel="stylesheet" href="src\components\Categories\categoriesCards.css">
+    <link rel="stylesheet" href="src\components\Facilities\categoryCards.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-    <script src="category.js"></script>
+    <script src="src\components\Facilities\categoryCards.js"></script>
 </head>
 <div class="categories-container noselect">
     <div class="description">

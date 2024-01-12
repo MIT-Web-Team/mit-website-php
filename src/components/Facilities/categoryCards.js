@@ -1,66 +1,66 @@
 var facilitiesData = [
     {
-        img: 'C:/xampp/htdocs/mit-website-php/src/assets/FacilitiesIcons/hostel.png',
+        img: 'src/assets/FacilitiesIcons/hostel.png',
         title: 'Hostel',
     },
     {
-        img: 'C:/xampp/htdocs/mit-website-php/src/assets/FacilitiesIcons/nss.png',
+        img: 'src/assets/FacilitiesIcons/nss.png',
         title: 'NSS',
     },
     {
-        img: 'C:/xampp/htdocs/mit-website-php/src/assets/FacilitiesIcons/nso.png',
+        img: 'src/assets/FacilitiesIcons/nso.png',
         title: 'NSO',
     },
     {
-        img: 'C:/xampp/htdocs/mit-website-php/src/assets/FacilitiesIcons/yrc.png',
+        img: 'src/assets/FacilitiesIcons/yrc.png',
         title: 'YRC',
     },
     {
-        img: 'C:/xampp/htdocs/mit-website-php/src/assets/FacilitiesIcons/athaneum.png',
+        img: 'src/assets/FacilitiesIcons/athaneum.png',
         title: 'Athenaeum',
     },
     {
-        img: 'C:/xampp/htdocs/mit-website-php/src/assets/FacilitiesIcons/pda.png',
+        img: 'src/assets/FacilitiesIcons/pda.png',
         title: 'PDA',
     },
     {
-        img: 'C:/xampp/htdocs/mit-website-php/src/assets/FacilitiesIcons/tamil_mandram.png',
+        img: 'src/assets/FacilitiesIcons/tamil_mandram.png',
         title: 'tamil mandram',
     },
     {
-        img: 'C:/xampp/htdocs/mit-website-php/src/assets/FacilitiesIcons/rotaract_club.png',
+        img: 'src/assets/FacilitiesIcons/rotaract_club.png',
         title: 'rotaract club',
     },
     {
-        img: 'C:/xampp/htdocs/mit-website-php/src/assets/FacilitiesIcons/hostel.png',
+        img: 'src/assets/FacilitiesIcons/hostel.png',
         title: 'Hostel',
     },
     {
-        img: 'C:/xampp/htdocs/mit-website-php/src/assets/FacilitiesIcons/csmit.png',
+        img: 'src/assets/FacilitiesIcons/csmit.png',
         title: 'Computer Society',
     },
     {
-        img: 'C:/xampp/htdocs/mit-website-php/src/assets/FacilitiesIcons/tbo.png',
+        img: 'src/assets/FacilitiesIcons/tbo.png',
         title: 'TBO',
     },
     {
-        img: 'C:/xampp/htdocs/mit-website-php/src/assets/FacilitiesIcons/mit_quill.png',
+        img: 'src/assets/FacilitiesIcons/mit_quill.png',
         title: 'MIT Quill',
     },
     {
-        img: 'C:/xampp/htdocs/mit-website-php/src/assets/FacilitiesIcons/variety_team.png',
+        img: 'src/assets/FacilitiesIcons/variety_team.png',
         title: 'variety team',
     },
     {
-        img: 'C:/xampp/htdocs/mit-website-php/src/assets/FacilitiesIcons/museum.png',
+        img: 'src/assets/FacilitiesIcons/museum.png',
         title: 'Museum',
     },
     {
-        img: 'C:/xampp/htdocs/mit-website-php/src/assets/FacilitiesIcons/mitra.png',
+        img: 'src/assets/FacilitiesIcons/mitra.png',
         title: 'mitra',
     },
     {
-        img: 'C:/xampp/htdocs/mit-website-php/src/assets/FacilitiesIcons/tedc.png',
+        img: 'src/assets/FacilitiesIcons/tedc.png',
         title: 'tedc',
     }
 ];
