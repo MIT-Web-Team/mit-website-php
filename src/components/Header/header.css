@@ -13,7 +13,7 @@
 
 .header-container h1 {
   display: flex;
-  color: var(--primary-color);
+  color: #0d1a2a;
   font-size: 28px;
   flex-direction: row;
   cursor: pointer;
@@ -25,7 +25,7 @@
 }
 
 .header-container h1 > span {
-  color: var(--secondary-color);
+  color: #525fe1;
 }
 
 .header-container .menus {
@@ -37,7 +37,7 @@
 }
 
 .header-container .menus > .menu-items a.active {
-  color: var(--primary-color);
+  color: #0d1a2a;
 }
 
 .header-container .menu-items {
@@ -73,13 +73,13 @@
   padding: 0.7rem 1rem;
   font-weight: 700;
   font-size: 13px;
-  color: var(--not-so-light-grey);
+  color: #a4a4a4;
   transition: color 0.2s ease-in-out;
 }
 
 .header-container .menu-items a:hover,
 .header-container .menu-items button:hover {
-  color: var(--primary-color);
+  color: #0d1a2a;
 }
 
 .header-container .dropdown {
@@ -92,7 +92,7 @@
   min-width: 12rem;
   padding: 0.5rem 0;
   list-style: none;
-  background-color: var(--body-color);
+  background-color: #f9fbfc;
   border-radius: 0.5rem;
   visibility: hidden;
   opacity: 0;
@@ -126,7 +126,7 @@
 
 .header-container .dropdown .menu-items > a,
 .header-container .dropdown .menu-items button {
-  color: var(--primary-color);
+  color: #0d1a2a;
   transition: color 0.2s ease-in-out;
 }
 
@@ -151,8 +151,8 @@
   width: fit-content;
   padding: 10px 20px;
   border-radius: 50px;
-  background-color: var(--yellow);
-  color: var(--primary-color);
+  background-color: #ffcf59;
+  color: #0d1a2a;
   font-weight: 700;
   font-size: 13px;
   cursor: pointer;
