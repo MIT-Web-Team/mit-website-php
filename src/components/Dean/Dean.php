@@ -24,7 +24,7 @@ function openLink()
         <span>Prof. J. Prakash, Dean</span>
       </div>
       <div class="flex-row">
-        <button class="more-button" onclick="<?php openLink(); ?>">Know More</button>
+        <button class="more-button" onclick="openProfile()">Know More</button>
       </div>
     </div>
     <div class="deanImage">
@@ -32,3 +32,10 @@ function openLink()
     </div>
   </div>
 </div>
+
+<script>
+  function openProfile() {
+      var websiteURL = 'https://annauniv.irins.org/profile/43400';
+      window.open(websiteURL, '_blank');
+  }
+</script>
