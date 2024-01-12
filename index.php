@@ -1,8 +1,6 @@
 <!DOCTYPE html>
-<head>
-<link rel="stylesheet" href="index.css">
-</head>
 <html>
+    <!-- <link rel="stylesheet" href="index.css">     -->
     <?php include './src/components/Header/header.php'; ?>
     <?php include './src/components/Centres/centre.php'; ?> 
     <?php include './src/components/Dean/dean.php'; ?> 

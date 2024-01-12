@@ -1,6 +1,5 @@
 <head>
-    <link rel="stylesheet" type="text/css" href="/index.css">
-    <link rel="stylesheet" href="./header.css">	
+	<link rel="stylesheet" href="src\components\Header\header.css">
 </head>
 <header class="header-container noselect">
 	<a class="active" href="/" aria-current="page">
