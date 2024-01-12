@@ -1,8 +1,12 @@
 <head>
     <link rel="stylesheet" href="src\components\Facilities\categoryCards.css">
+    <link rel="stylesheet" href="../Header/header.css">
+    <link rel="stylesheet" href="../Footer/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <script src="src\components\Facilities\categoryCards.js"></script>
 </head>
+<body>
+<?php include '../Header/header.php'; ?>
 <div class="categories-container noselect">
     <div class="description">
         <h1>Facilities Available at MIT</h1>
@@ -23,3 +27,5 @@
         </button>
     </div>
 </div>
+<?php include '../Footer/footer.php'; ?>
+</body>

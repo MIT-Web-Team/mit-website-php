@@ -1,9 +1,11 @@
 <head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
   <link rel="stylesheet" type="text/css" href="about.css">
+  <link rel="stylesheet" href="../Header/header.css">
+  <link rel="stylesheet" href="../Footer/footer.css">
 </head>
 <body>
-<?php require '../Header/header.php'; ?>
+<?php include '../Header/header.php'; ?>
 <div class="outer-about-container noselect">
       <div class="about-header-container">History - MIT</div>
       <div class="history-container">
@@ -77,5 +79,5 @@
         </div>
       </div>
     </div>
-<?php require '../Footer/footer.php'; ?>
+<?php include '../Footer/footer.php'; ?>
 <body>
