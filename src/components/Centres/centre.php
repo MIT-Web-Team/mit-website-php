@@ -5,52 +5,52 @@
 $centersData = [
     [
         "title" => "Computer Center",
-        "img" => "path_to_ComputerCenterImage",
+        "img" => "src\assets\Facilities\computer_center.jpg",
         // "description" => "2K+ Active Members",
     ],
     [
         "title" => "AUKBC - MIT",
-        "img" => "path_to_AUKBCImage",
+        "img" => "src\assets\Facilities\aukbc.jpg",
         // "description" => "2K+ Active Members",
     ],
     [
         "title" => "Center for Aerospace",
-        "img" => "path_to_CentreForAerospaceImage",
+        "img" => "src\assets\Facilities\centre_for_aerospace.jpeg",
         // "description" => "2K+ Active Members",
     ],
     [
         "title" => "Center for IoT",
-        "img" => "path_to_CenterForIoTImage",
+        "img" => "src\assets\Facilities\center_for_iot.jpg",
         // "description" => "2K+ Active Members",
     ],
     [
         "title" => "Library",
-        "img" => "path_to_LibraryImage",
+        "img" => "src\assets\Facilities\library.jpg",
         // "description" => "2K+ Active Members",
     ],
     [
         "title" => "Placement",
-        "img" => "path_to_PlacementImage",
+        "img" => "src\assets\Facilities\placement.jpg",
         // "description" => "2K+ Active Members",
     ],
     [
         "title" => "Sports",
-        "img" => "path_to_SportsImage",
+        "img" => "src\assets\Facilities\sports.jpg",
         // "description" => "2K+ Active Members",
     ],
     [
         "title" => "Health Center",
-        "img" => "path_to_HealthCentreImage",
+        "img" => "src\assets\Facilities\health_centre.jpg",
         // "description" => "2K+ Active Members",
     ],
     [
         "title" => "SCoE",
-        "img" => "path_to_Scoe",
+        "img" => "src\assets\Facilities\scoe.jpg",
         // "description" => "2K+ Active Members",
     ],
     [
         "title" => "CEAT",
-        "img" => "path_to_CeatImage",
+        "img" => "src\assets\Facilities\ceat.png",
         // "description" => "2K+ Active Members",
     ],
 ];
