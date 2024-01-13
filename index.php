@@ -4,6 +4,7 @@
     <div id="root">
         <?php include './src/components/Header/header.php'; ?>
         <?php include './src/components/NumberCount/numbercount1.php'; ?>
+        <?php include './src/components/HorizontalCards/horizontalcards.php'; ?>
         <?php include './src/components/NumberCount/numbercount2.php'; ?>
         <?php include './src/components/Centres/centre.php'; ?> 
         <?php include './src/components/Dean/dean.php'; ?> 
