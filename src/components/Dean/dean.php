@@ -6,7 +6,7 @@ function openLink()
 ?>
 
 <head>
-  <link rel="stylesheet" type="text/css" href="src\components\Dean\dean.css">
+  <link rel="stylesheet" type="text/css" href="src/components/Dean/dean.css">
 </head>
 <div class="deanMain">
   <div class="deanMask" style="display: flex; flex-direction: row; height: 100%; width: 100%; background-color: rgba(82, 95, 225, 0.85); justify-content: space-between; --darkreader-inline-bgcolor: rgba(26, 37, 147, 0.85);">

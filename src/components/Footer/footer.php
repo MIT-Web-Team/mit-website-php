@@ -1,7 +1,5 @@
 <head>
-    <link rel="stylesheet" href="src\components\Footer\footer.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="src/components/Footer/footer.css">
 </head>
 <?php
 $footerContents = [

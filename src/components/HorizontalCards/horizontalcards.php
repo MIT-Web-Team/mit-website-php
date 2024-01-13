@@ -1,5 +1,5 @@
 <head>
-    <link rel="stylesheet" href="src\components\HorizontalCards\horizontalcards.css">
+    <link rel="stylesheet" href="src/components/HorizontalCards/horizontalcards.css">
 </head>
 
 <?php

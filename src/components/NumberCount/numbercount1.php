@@ -1,5 +1,5 @@
 <head>
-    <link rel="stylesheet" href="src\components\NumberCount\numbercount.css">
+    <link rel="stylesheet" href="src/components/NumberCount/numbercount.css">
 </head>
 
 <?php
