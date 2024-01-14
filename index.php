@@ -3,6 +3,7 @@
     <link rel="stylesheet" href="index.css">    
     <div id="root">
         <?php include './src/components/Header/header.php'; ?>
+        <?php include './src/components/Banner/banner.php'; ?>
         <?php include './src/components/NumberCount/numbercount1.php'; ?>
         <?php include './src/components/HorizontalCards/horizontalcards.php'; ?>
         <?php include './src/components/NumberCount/numbercount2.php'; ?>
