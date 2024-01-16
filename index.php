@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="src/index.css">   
+    <link rel="stylesheet" href="src/App.css">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madras Institute of Technology</title>
+</head>    
 <html>
     <link rel="stylesheet" href="src/index.css">   
     <link rel="stylesheet" href="src/App.css">   
