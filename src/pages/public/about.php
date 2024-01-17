@@ -13,8 +13,8 @@
 
 <div id="root">
   <section class="app-container">
-    <?php include '../../components/Header/header.php'; ?>
     <?php include '../../components/Modal/modal.php'; ?>
+    <?php include '../../components/Header/header.php'; ?>
     <section class="page-container">
       <div class="outer-about-container noselect">
         <div class="about-header-container">History - MIT</div>

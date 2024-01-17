@@ -13,8 +13,8 @@
 <html>
     <div id="root">
         <section class="app-container">
-            <?php include '../../../components/Header/header.php'; ?>
             <?php include '../../../components/Modal/modal.php'; ?>
+            <?php include '../../../components/Header/header.php'; ?>
             <section class="page-container">
 
 <?php
