@@ -109,4 +109,20 @@
         var modalContainer = document.querySelector('.modal-container');
         modalContainer.classList.remove('hidden');
     }
+
+    document.addEventListener('DOMContentLoaded', function () {
+        var menuItems = document.querySelectorAll('.menu-items');
+
+        menuItems.forEach(function (menuItem) {
+            menuItem.addEventListener('mouseenter', function () {
+                var dropdown = menuItem.querySelector('.dropdown');
+                dropdown.classList.add('show');
+            });
+
+            menuItem.addEventListener('mouseleave', function () {
+                var dropdown = menuItem.querySelector('.dropdown');
+                dropdown.classList.remove('show');
+            });
+        });
+    });
 </script>
