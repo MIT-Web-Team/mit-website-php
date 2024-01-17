@@ -100,5 +100,13 @@
 			<li class="menu-items"><a class="" href="/Staff/:id">Test</a></li>
 		</ul>
 	</nav>
-	<div class="login-container"><button class="login-button">Sign In</button></div>
+	<div class="login-container"><button class="login-button" onclick="showModal()">Sign In</button></div>
 </header>
+
+
+<script>
+    function showModal() {
+        var modalContainer = document.querySelector('.modal-container');
+        modalContainer.classList.remove('hidden');
+    }
+</script>
