@@ -68,7 +68,7 @@
 				<ul class="dropdown  ">
 					<li class="menu-items"><a class="" href="/administration/undefined"></a></li>
 					<li class="menu-items"><a class="" href="https://annauniv.irins.org/profile/43400">Dean</a></li>
-					<li class="menu-items"><a class="" href="/administration/officeStaff/">Office Staff</a></li>
+					<li class="menu-items"><a class="" href="/administration/officestaff">Office Staff</a></li>
 				</ul>
 			</li>
 			<li class="menu-items">
