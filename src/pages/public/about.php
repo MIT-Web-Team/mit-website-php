@@ -7,11 +7,14 @@
     <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="../../components/Header/header.css">
     <link rel="stylesheet" href="../../components/Footer/footer.css">
+    <link rel="stylesheet" href="../../components/Modal/modal.css">
+    <link rel="stylesheet" href="../../components/TextInput/textinput.css">
 </head>  
 
 <div id="root">
   <section class="app-container">
     <?php include '../../components/Header/header.php'; ?>
+    <?php include '../../components/Modal/modal.php'; ?>
     <section class="page-container">
       <div class="outer-about-container noselect">
         <div class="about-header-container">History - MIT</div>
