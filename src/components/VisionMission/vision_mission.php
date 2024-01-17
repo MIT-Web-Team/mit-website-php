@@ -1,6 +1,3 @@
-<head>
-    <link rel="stylesheet" href="src/components/VisionMission/vision_mission.css">
-</head>
 <div class="mi-vi-wrapper">
     <div class="vi-wrapper">
         <div class="vision-main-card">

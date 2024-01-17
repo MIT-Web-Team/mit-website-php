@@ -1,6 +1,3 @@
-<head>
-    <link rel="stylesheet" href="src/components/Banner/banner.css">
-</head>
 <?php
 // $NoOfDays = 5;
 // $url = "/DB/Query"; // Replace with your actual API endpoint

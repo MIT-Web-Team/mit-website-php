@@ -1,7 +1,3 @@
-<head>
-    <link rel="stylesheet" href="src/components/HorizontalCards/horizontalcards.css">
-</head>
-
 <?php
 $departmentsData = array(
     array(

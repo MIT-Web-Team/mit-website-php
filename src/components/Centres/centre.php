@@ -1,6 +1,3 @@
-<head>
-    <link rel="stylesheet" href="src/components/Centres/centre.css">
-</head>
 <?php
 $centersData = [
     [

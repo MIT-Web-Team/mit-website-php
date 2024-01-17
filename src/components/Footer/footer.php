@@ -1,6 +1,3 @@
-<head>
-    <link rel="stylesheet" href="src/components/Footer/footer.css">
-</head>
 <?php
 $footerContents = [
     [

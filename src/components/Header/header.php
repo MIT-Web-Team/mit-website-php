@@ -1,6 +1,3 @@
-<head>
-	<link rel="stylesheet" href="src/components/Header/header.css">
-</head>
 <header class="header-container noselect">
 	<a class="active" href="/" aria-current="page">
 		<h1 class="HeaderLogo">MIT - AU</h1>

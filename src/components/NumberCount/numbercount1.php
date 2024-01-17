@@ -1,7 +1,3 @@
-<head>
-    <link rel="stylesheet" href="src/components/NumberCount/numbercount.css">
-</head>
-
 <?php
 $numberCountsData = array(
     array("count" => "2.8K+", "description" => "Undergraduates"),
