@@ -10,21 +10,20 @@
 }
 
 .staggered-cards-container .description {
-  width: 48%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  @media (max-width: 900px){
+  align-items: center;
+  text-align: center;
+  /* @media (max-width: 900px){
     text-align: center;
-  }
+  } */
 }
 
 .staggered-cards-container .description > h1 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 800;
-  @media (max-width: 900px){
-    font-size: 42px;
-  }
 }
 
 .staggered-cards-container .description > p {
