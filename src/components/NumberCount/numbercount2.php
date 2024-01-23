@@ -1,6 +1,6 @@
 <?php
 $numberCountsData2 = array(
-    array("count" => "210/124", "description" => "Faculty/Staff"),
+    array("count" => "06", "description" => "Research Centres"),
     array("count" => "49Cr+", "description" => "R & D Grants"),
     array("count" => "588", "description" => "Publications"),
     array("count" => "14/6", "description" => "Patents Published/Granted"),

@@ -3,7 +3,9 @@ $numberCountsData = array(
     array("count" => "2.8K+", "description" => "Undergraduates"),
     array("count" => "216", "description" => "Postgraduates"),
     array("count" => "306", "description" => "PhD Scholars"),
-    array("count" => "06", "description" => "Research Centres"),
+    array("count" => "09", "description" => "UG Programs"),
+    array("count" => "10", "description" => "PG Programs"),
+    array("count" => "210/124", "description" => "Faculty/Staff"),
 );
 ?>
 
