@@ -64,8 +64,7 @@ $facilitiesData = [
 
 echo '<div class="categories-container noselect">';
 echo '<div class="description">';
-echo '<h1>Facilities Available at MIT</h1>';
-echo '<p>Here are some of the facilities that we provide to our students to help them grow and learn. We have a lot of facilities that we provide.</p>';
+echo '<h1>Facilities</h1>';
 echo '</div>';
 echo '<div class="categories-cards-container">';
 
