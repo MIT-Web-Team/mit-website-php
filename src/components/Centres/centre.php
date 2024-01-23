@@ -1,8 +1,8 @@
 <?php
-$centersData = [
+$centresData = [
     [
-        "title" => "Computer Center",
-        "img" => "src\assets\Facilities\computer_center.jpg",
+        "title" => "Computer Centre",
+        "img" => "src\assets\Facilities\computer_centre.jpg",
         // "description" => "2K+ Active Members",
     ],
     [
@@ -11,13 +11,13 @@ $centersData = [
         // "description" => "2K+ Active Members",
     ],
     [
-        "title" => "Center for Aerospace",
+        "title" => "Centre for Aerospace",
         "img" => "src\assets\Facilities\centre_for_aerospace.jpeg",
         // "description" => "2K+ Active Members",
     ],
     [
-        "title" => "Center for IoT",
-        "img" => "src\assets\Facilities\center_for_iot.jpg",
+        "title" => "Centre for IoT",
+        "img" => "src\assets\Facilities\centre_for_iot.jpg",
         // "description" => "2K+ Active Members",
     ],
     [
@@ -36,7 +36,7 @@ $centersData = [
         // "description" => "2K+ Active Members",
     ],
     [
-        "title" => "Health Center",
+        "title" => "Health Centre",
         "img" => "src\assets\Facilities\health_centre.jpg",
         // "description" => "2K+ Active Members",
     ],
@@ -58,7 +58,7 @@ echo '<h1>Centres</h1>';
 echo '</div>';
 echo '<div class="staggered-cards-wrapper">';
 
-foreach ($centersData as $index => $data) {
+foreach ($centresData as $index => $data) {
     echo '<div class="card">';
     echo '<img src="' . $data['img'] . '" />';
     echo '<div class="content">';
