@@ -13,6 +13,7 @@
 					</svg>
 				</button>
 				<ul class="dropdown  ">
+					<li class="menu-items"><a class="" href="/about">About MIT</a></li>
 					<li class="menu-items"><a class="" href="https://www.annauniv.edu/">AU Home</a></li>
 				</ul>
 			</li>
@@ -25,7 +26,7 @@
 				</button>
 				<ul class="dropdown">
 					<li class="menu-items"><a class="" href="/departments/undefined"></a></li>
-					<li class="menu-items">
+					<!-- <li class="menu-items">
 						<button type="button" aria-haspopup="menu" aria-expanded="false">
 							<a class="" href="/departments/aero/">Aeronautical Engineering</a>
 							<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
@@ -47,7 +48,8 @@
 								</ul>
 							</li>
 						</ul>
-					</li>
+					</li> -->
+					<li class="menu-items"><a class="" href="https://mitindia.edu/en/aero-home">Aeronautical Engineering</a></li>
 					<li class="menu-items"><a class="" href="https://mitindia.edu/en/auto-home">Automobile Engineering</a></li>
 					<li class="menu-items"><a class="" href="https://mitindia.edu/en/ece-home">Electronics Engineering</a></li>
 					<li class="menu-items"><a class="" href="https://mitindia.edu/en/instrumentation-home">Instrumentation Engineering</a></li>
@@ -55,7 +57,7 @@
 					<li class="menu-items"><a class="" href="https://mitindia.edu/en/rpt-home">Rubber and Plastics Technology</a></li>
 					<li class="menu-items"><a class="" href="http://www.it.mitindia.edu/">Information Technology</a></li>
 					<li class="menu-items"><a class="" href="http://www.ct.mitindia.edu/dct/#/home">Computer Technology</a></li>
-					<li class="menu-items"><a class="" href="http://www.dash.mitindia.edu/">Applied Science and Humanities</a></li>
+					<li class="menu-items"><a class="" href="http://www.dash.mitindia.edu/">Applied Sciences and Humanities</a></li>
 				</ul>
 			</li>
 			<li class="menu-items">
@@ -93,11 +95,16 @@
 				</button>
 				<ul class="dropdown  ">
 					<li class="menu-items"><a class="" href="http://www.placement.mitindia.edu/">Placements</a></li>
+					<li class="menu-items"><a class="" href="/network">Network</a></li>
+					<li class="menu-items"><a class="" href="/telephone">Telephone</a></li>
+					<li class="menu-items"><a class="" href="/health-centre">Health Centre</a></li>
+					<li class="menu-items"><a class="" href="/library">Library</a></li>
 				</ul>
 			</li>
-			<li class="menu-items"><a class="" href="/about">About Us</a></li>
+			<!-- <li class="menu-items"><a class="" href="/about">About Us</a></li> -->
 			<li class="menu-items"><a class="" href="/scholarships">Scholarships</a></li>
-			<li class="menu-items"><a class="" href="/Staff/:id">Test</a></li>
+			<!-- <li class="menu-items"><a class="" href="/Staff/:id">Test</a></li> -->
+			<li class="menu-items"><a class="" href="/events">Events</a></li>
 		</ul>
 	</nav>
 	<div class="login-container"><button class="login-button" onclick="showModal()">Sign In</button></div>
