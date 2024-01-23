@@ -64,6 +64,10 @@ $footerContents = [
                 "title" => "Network Issues",
                 "url" => "https://docs.google.com/forms/d/e/1FAIpQLSdccEYSatG7fShAYwLMJ0hwvfvtDtW_cc00ZpGliYpfeYzhBA/viewform",
             ],
+            [
+                "title" => "More",
+                "url" => "/downloads",
+            ],
         ],
     ],
     [
@@ -99,6 +103,8 @@ echo '<div class="footer-container noselect">';
 echo '<span>';
 echo '<span>';
 echo '<h1>Anna University, MIT Campus</h1>';
+echo '<p>MIT Rd, Radha Nagar,</p>';
+echo '<p>Chromepet, Chennai - 600044.</p>';
 echo '<p>dean@mitindia.edu | +044 2251 6002</p>';
 echo '<div class="map-contact-container">';
 echo '<div class="map-container">';
