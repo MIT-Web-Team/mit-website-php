@@ -91,8 +91,27 @@ echo '</div>';
 ?>
 
 <script>
-    function handleScroll(amount) {
+    let scrollAmount = 0;
+    let scrollInterval;
+
     var wrapper = document.getElementById('category-wrapper');
-    wrapper.scrollLeft += amount;
+    function startScroll() {
+        scrollInterval = setInterval(() => {
+            if (scrollAmount < wrapper.scrollWidth - wrapper.clientWidth) {
+                scrollAmount += 300;
+            } else {
+                scrollAmount = 0;
+            }
+            wrapper.scrollLeft = scrollAmount;
+        }, 3000);
     }
+
+    function stopScroll() {
+        clearInterval(scrollInterval);
+    }
+
+    startScroll();
+
+    wrapper.addEventListener('mouseover', stopScroll);
+    wrapper.addEventListener('mouseout', startScroll);
 </script>
