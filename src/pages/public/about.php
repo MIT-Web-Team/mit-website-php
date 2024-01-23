@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
+    <title>About MIT</title>
     <link rel="stylesheet" href="../../index.css">   
     <link rel="stylesheet" href="../../App.css"> 
     <link rel="stylesheet" href="about.css">
