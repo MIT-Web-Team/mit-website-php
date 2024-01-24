@@ -13,7 +13,7 @@
                 </svg>
             </div>
         </div>
-        <form id="loginForm" action="your_login_script.php" method="post">
+        <form id="loginForm" action="connect.php" method="post">
             <div class="modal-content">
                 <div class="padded-content">
                     <div class="text-input-container">
