@@ -1,0 +1,45 @@
+.outer-about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.outer-about-container > .about-header-container{
+    font-size: xx-large;
+    font-weight: bolder;
+    margin: 1%;
+    border-bottom: 3px solid silver;
+    color: var(--secondary-color);
+
+}
+
+.head-text-container{
+    font-size:large;
+    margin: 1.5%;
+    width: max-content;
+    font-weight: bold;
+    border-bottom: 3px solid silver;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.about-content{
+    text-align: justify;
+    margin: 2% 3%;
+    padding: 1%;
+    line-height: 1.5;
+    border: 1px solid silver;
+    border-radius: 10px;
+    background-color: var(--white);
+}
+.about-content > .about-history-list{
+    color: var(--grey);
+    margin: 0 0 0 2%;
+    line-height: 2;
+}
+.head-text{
+    margin: 0 0 0 10px;
+}

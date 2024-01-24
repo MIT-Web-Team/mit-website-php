@@ -1,6 +1,8 @@
+
+
 <header class="header-container noselect">
 	<a class="active" href="/" aria-current="page">
-		<h1 class="HeaderLogo">MIT - AU</h1>
+		<h1 class="HeaderLogo"><img src="src\assets\mit_logo.png"></h1>
 	</a>
 	<div class="burger-menu"><span class="sus "></span><span class="sus "></span><span class="sus "></span></div>
 	<nav>
