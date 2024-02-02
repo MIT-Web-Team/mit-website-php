@@ -136,6 +136,19 @@
     font-size: 28px;
   }
 }
+.banner > .left > .rank > .campus-container {
+  /* font-size: 60px; */
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--secondary-color);
+  text-transform: capitalize;
+}
+
+@media only screen and (max-width: 910px) {
+  .banner > .left > .rank > .campus-container {
+    font-size: 28px;
+  }
+}
 .banner > .left> .logo-container > img{
   /* border: 2px solid black; */
 
@@ -169,6 +182,11 @@
   }
 }
 
+.banner > .left > .rank {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
 .banner > .left > .flex-row {
   display: flex;
   align-items: center;
