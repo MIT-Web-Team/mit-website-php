@@ -126,6 +126,7 @@
 
         if (button && dropdown) {
             button.addEventListener('click', function () {
+                closeAllDropdowns();
                 var expanded = button.getAttribute('aria-expanded') === 'true' || false;
                 button.setAttribute('aria-expanded', !expanded);
                 dropdown.classList.toggle('show');
@@ -139,7 +140,19 @@
             });
         }
     });
+
+    function closeAllDropdowns() {
+        var allDropdowns = document.querySelectorAll('.dropdown');
+        allDropdowns.forEach(function (dropdown) {
+            dropdown.classList.remove('show');
+            var button = dropdown.closest('.menu-items').querySelector('button');
+            if (button) {
+                button.setAttribute('aria-expanded', 'false');
+            }
+        });
+    }
 });
+
 
 
 
