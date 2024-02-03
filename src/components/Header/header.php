@@ -1,5 +1,3 @@
-
-
 <header class="header-container noselect">
 	<a class="active" href="/" aria-current="page">
 		<h1 class="HeaderLogo"><img src="src\assets\mit_logo.png"></h1>
@@ -119,21 +117,31 @@
         modalContainer.classList.remove('hidden');
     }
 
-    document.addEventListener('DOMContentLoaded', function () {
-        var menuItems = document.querySelectorAll('.menu-items');
+	document.addEventListener('DOMContentLoaded', function () {
+    var menuItems = document.querySelectorAll('.menu-items');
 
-        menuItems.forEach(function (menuItem) {
-            menuItem.addEventListener('mouseenter', function () {
-                var dropdown = menuItem.querySelector('.dropdown');
-                dropdown.classList.add('show');
+    menuItems.forEach(function (menuItem) {
+        var button = menuItem.querySelector('button');
+        var dropdown = menuItem.querySelector('.dropdown');
+
+        if (button && dropdown) {
+            button.addEventListener('click', function () {
+                var expanded = button.getAttribute('aria-expanded') === 'true' || false;
+                button.setAttribute('aria-expanded', !expanded);
+                dropdown.classList.toggle('show');
             });
 
             menuItem.addEventListener('mouseleave', function () {
-                var dropdown = menuItem.querySelector('.dropdown');
-                dropdown.classList.remove('show');
+                var expanded = button.getAttribute('aria-expanded') === 'true' || false;
+                if (!expanded) {
+                    dropdown.classList.remove('show');
+                }
             });
-        });
+        }
     });
+});
+
+
 
 	document.addEventListener('DOMContentLoaded', function () {
 		var burgerMenu = document.querySelector('.burger-menu');
