@@ -9,7 +9,7 @@
 		<ul class="menus nohighlights noselect ">
 			<li class="menu-items">
 				<button type="button" aria-haspopup="menu" aria-expanded="false">
-					<a class="active" href="/" aria-current="page">Home</a>
+					<a class="active" aria-current="page">Home</a>
 					<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
 						<path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path>
 					</svg>
@@ -21,7 +21,7 @@
 			</li>
 			<li class="menu-items">
 				<button type="button" aria-haspopup="menu" aria-expanded="false">
-					<a class="" href="/departments/">Departments</a>
+					<a class="">Departments</a>
 					<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
 						<path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path>
 					</svg>
@@ -64,7 +64,7 @@
 			</li>
 			<li class="menu-items">
 				<button type="button" aria-haspopup="menu" aria-expanded="false">
-					<a class="" href="/administration/">Administration</a>
+					<a class="">Administration</a>
 					<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
 						<path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path>
 					</svg>
@@ -77,7 +77,7 @@
 			</li>
 			<li class="menu-items">
 				<button type="button" aria-haspopup="menu" aria-expanded="false">
-					<a class="" href="/centres">Centres</a>
+					<a class="">Centres</a>
 					<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
 						<path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path>
 					</svg>
@@ -90,7 +90,7 @@
 			</li>
 			<li class="menu-items">
 				<button type="button" aria-haspopup="menu" aria-expanded="false">
-					<a class="" href="/facilities">Facilities</a>
+					<a class="">Facilities</a>
 					<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
 						<path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path>
 					</svg>
