@@ -134,4 +134,17 @@
             });
         });
     });
+
+	document.addEventListener('DOMContentLoaded', function () {
+		var burgerMenu = document.querySelector('.burger-menu');
+		var ulMenu = document.querySelector('.menus');
+
+		burgerMenu.addEventListener('click', function () {
+			var children = burgerMenu.children;
+       		children[0].classList.toggle('top');
+       		children[1].classList.toggle('mid');
+       		children[2].classList.toggle('bottom');
+			ulMenu.classList.toggle('open');
+		});
+	});
 </script>
