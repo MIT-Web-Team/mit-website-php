@@ -68,12 +68,18 @@ echo '<h1>Facilities</h1>';
 echo '</div>';
 echo '<div class="categories-cards-container">';
 
-echo '<button class="scroll-button" onclick="handleScroll(-300)"><i id="left" class="fa-solid fa-angle-left" style="color:white;"></i></button>';
-
 echo '<div class="categories-wrapper" id="category-wrapper">';
 
 foreach ($facilitiesData as $index => $data) {
-    echo '<div class="card">';
+    echo '<div class="category-card">';
+    echo '<img src="' . $data['img'] . '" />';
+    echo '<div class="content">';
+    echo '<h1>' . $data['title'] . '</h1>';
+    echo '</div>';
+    echo '</div>';
+}
+foreach ($facilitiesData as $index => $data) {
+    echo '<div class="category-card">';
     echo '<img src="' . $data['img'] . '" />';
     echo '<div class="content">';
     echo '<h1>' . $data['title'] . '</h1>';
@@ -82,35 +88,11 @@ foreach ($facilitiesData as $index => $data) {
 }
 
 echo '</div>';
-
-echo '<button class="scroll-button" onclick="handleScroll(+300)"><i id="right" class="fa-solid fa-angle-right" style="color:white;"></i></button>';
-
 echo '</div>';
 echo '</div>';
 ?>
-
+<!-- 
 <script>
-    let scrollAmount = 0;
-    let scrollInterval;
-
-    var wrapper = document.getElementById('category-wrapper');
-    function startScroll() {
-        scrollInterval = setInterval(() => {
-            if (scrollAmount < wrapper.scrollWidth - wrapper.clientWidth) {
-                scrollAmount += 300;
-            } else {
-                scrollAmount = 0;
-            }
-            wrapper.scrollLeft = scrollAmount;
-        }, 3000);
-    }
-
-    function stopScroll() {
-        clearInterval(scrollInterval);
-    }
-
-    startScroll();
-
-    wrapper.addEventListener('mouseover', stopScroll);
-    wrapper.addEventListener('mouseout', startScroll);
-</script>
+    var copy = document.querySelector(".categories-wrapper").cloneNode(true);
+    document.querySelector(".card").appendChild(copy);
+</script> -->
