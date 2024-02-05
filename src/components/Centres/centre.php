@@ -32,7 +32,7 @@ $centresData = [
     ],
     [
         "title" => "CRA",
-        "img" => "src\assets\Facilities\ceat.png",
+        "img" => "src\assets\Facilities\cra.png",
         // "description" => "2K+ Active Members",
     ],
     [
