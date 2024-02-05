@@ -1,5 +1,3 @@
-
-
 <header class="header-container noselect">
 	<a class="active" href="/" aria-current="page">
 		<h1 class="HeaderLogo"><img src="src\assets\mit_logo.png"></h1>
@@ -9,7 +7,7 @@
 		<ul class="menus nohighlights noselect ">
 			<li class="menu-items">
 				<button type="button" aria-haspopup="menu" aria-expanded="false">
-					<a class="active" href="/" aria-current="page">Home</a>
+					<a class="active" aria-current="page">Home</a>
 					<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
 						<path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path>
 					</svg>
@@ -21,7 +19,7 @@
 			</li>
 			<li class="menu-items">
 				<button type="button" aria-haspopup="menu" aria-expanded="false">
-					<a class="" href="/departments/">Departments</a>
+					<a class="">Departments</a>
 					<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
 						<path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path>
 					</svg>
@@ -64,7 +62,7 @@
 			</li>
 			<li class="menu-items">
 				<button type="button" aria-haspopup="menu" aria-expanded="false">
-					<a class="" href="/administration/">Administration</a>
+					<a class="">Administration</a>
 					<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
 						<path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path>
 					</svg>
@@ -77,7 +75,7 @@
 			</li>
 			<li class="menu-items">
 				<button type="button" aria-haspopup="menu" aria-expanded="false">
-					<a class="" href="/centres">Centres</a>
+					<a class="">Centres</a>
 					<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
 						<path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path>
 					</svg>
@@ -90,7 +88,7 @@
 			</li>
 			<li class="menu-items">
 				<button type="button" aria-haspopup="menu" aria-expanded="false">
-					<a class="" href="/facilities">Facilities</a>
+					<a class="">Facilities</a>
 					<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
 						<path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path>
 					</svg>
@@ -119,19 +117,57 @@
         modalContainer.classList.remove('hidden');
     }
 
-    document.addEventListener('DOMContentLoaded', function () {
-        var menuItems = document.querySelectorAll('.menu-items');
+	document.addEventListener('DOMContentLoaded', function () {
+    var menuItems = document.querySelectorAll('.menu-items');
 
-        menuItems.forEach(function (menuItem) {
-            menuItem.addEventListener('mouseenter', function () {
-                var dropdown = menuItem.querySelector('.dropdown');
-                dropdown.classList.add('show');
+    menuItems.forEach(function (menuItem) {
+        var button = menuItem.querySelector('button');
+        var dropdown = menuItem.querySelector('.dropdown');
+
+        if (button && dropdown) {
+            button.addEventListener('click', function () {
+                var expanded = button.getAttribute('aria-expanded') === 'true' || false;
+                if (expanded) {
+                    // Close the dropdown
+                    dropdown.classList.remove('show');
+                    button.setAttribute('aria-expanded', 'false');
+                } else {
+                    // Close all other dropdowns
+                    closeAllDropdowns();
+                    // Open the clicked dropdown
+                    dropdown.classList.add('show');
+                    button.setAttribute('aria-expanded', 'true');
+                }
             });
 
             menuItem.addEventListener('mouseleave', function () {
-                var dropdown = menuItem.querySelector('.dropdown');
                 dropdown.classList.remove('show');
+                button.setAttribute('aria-expanded', 'false');
             });
-        });
+        }
     });
+
+    function closeAllDropdowns() {
+        var allDropdowns = document.querySelectorAll('.dropdown');
+        allDropdowns.forEach(function (dropdown) {
+            dropdown.classList.remove('show');
+            var button = dropdown.closest('.menu-items').querySelector('button');
+            if (button) {
+                button.setAttribute('aria-expanded', 'false');
+            }
+        });
+    }
+
+    var burgerMenu = document.querySelector('.burger-menu');
+    var ulMenu = document.querySelector('.menus');
+
+    burgerMenu.addEventListener('click', function () {
+        var children = burgerMenu.children;
+        children[0].classList.toggle('top');
+        children[1].classList.toggle('mid');
+        children[2].classList.toggle('bottom');
+        ulMenu.classList.toggle('open');
+    });
+});
+
 </script>
