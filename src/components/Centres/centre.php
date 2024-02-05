@@ -21,6 +21,21 @@ $centresData = [
         // "description" => "2K+ Active Members",
     ],
     [
+        "title" => "SCoE",
+        "img" => "src\assets\Facilities\scoe.jpg",
+        // "description" => "2K+ Active Members",
+    ],
+    [
+        "title" => "CEAT",
+        "img" => "src\assets\Facilities\ceat.png",
+        // "description" => "2K+ Active Members",
+    ],
+    [
+        "title" => "CRA",
+        "img" => "src\assets\Facilities\ceat.png",
+        // "description" => "2K+ Active Members",
+    ],
+    [
         "title" => "Library",
         "img" => "src\assets\Facilities\library.jpg",
         // "description" => "2K+ Active Members",
@@ -38,16 +53,6 @@ $centresData = [
     [
         "title" => "Health Centre",
         "img" => "src\assets\Facilities\health_centre.jpg",
-        // "description" => "2K+ Active Members",
-    ],
-    [
-        "title" => "SCoE",
-        "img" => "src\assets\Facilities\scoe.jpg",
-        // "description" => "2K+ Active Members",
-    ],
-    [
-        "title" => "CEAT",
-        "img" => "src\assets\Facilities\ceat.png",
         // "description" => "2K+ Active Members",
     ],
 ];
