@@ -1,6 +1,8 @@
 <header class="header-container noselect">
 	<a class="active" href="/" aria-current="page">
-		<h1 class="HeaderLogo"><img src="src\assets\mit_logo.png"></h1>
+		<h1 class="HeaderLogo">
+			<img src="src\assets\mit_logo.png">
+		</h1>
 	</a>
 	<div class="burger-menu"><span class="sus "></span><span class="sus "></span><span class="sus "></span></div>
 	<nav>
@@ -81,9 +83,12 @@
 					</svg>
 				</button>
 				<ul class="dropdown  ">
-					<li class="menu-items"><a class="" href="https://cc.mitindia.edu/">Computer Centre</a></li>
 					<li class="menu-items"><a class="" href="https://www.au-kbc.org/">AU-KBC Research Centre</a></li>
 					<li class="menu-items"><a class="" href="http://www.casr.mitindia.edu/">Centre for Aerospace Research</a></li>
+					<li class="menu-items"><a class="" href="http://www.casr.mitindia.edu/">Centre for IoT</a></li>
+					<li class="menu-items"><a class="" href="http://www.casr.mitindia.edu/">SCoE</a></li>
+					<li class="menu-items"><a class="" href="http://www.casr.mitindia.edu/">CEAT</a></li>
+					<li class="menu-items"><a class="" href="http://www.casr.mitindia.edu/">CRA</a></li>
 				</ul>
 			</li>
 			<li class="menu-items">
@@ -94,11 +99,13 @@
 					</svg>
 				</button>
 				<ul class="dropdown  ">
+					<li class="menu-items"><a class="" href="https://cc.mitindia.edu/">Computer Centre</a></li>
 					<li class="menu-items"><a class="" href="http://www.placement.mitindia.edu/">Placements</a></li>
 					<li class="menu-items"><a class="" href="/network">Network</a></li>
 					<li class="menu-items"><a class="" href="/telephone">Telephone</a></li>
 					<li class="menu-items"><a class="" href="/health-centre">Health Centre</a></li>
 					<li class="menu-items"><a class="" href="/library">Library</a></li>
+					<li class="menu-items"><a class="" href="/hostel">Hostel</a></li>
 				</ul>
 			</li>
 			<!-- <li class="menu-items"><a class="" href="/about">About Us</a></li> -->
