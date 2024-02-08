@@ -1,38 +1,13 @@
 <?php
 session_start();
 
-function get_env_variables() {
-    $lines = file('../../.env', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-    $env = [];
-    foreach ($lines as $line) {
-        if (strpos(trim($line), '#') === 0) {
-            continue;
-        }
-        list($name, $value) = explode('=', $line, 2);
-        $env[$name] = $value;
-    }
-    return $env;
-}
-
-$env = get_env_variables();
+require 'dbconnect.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $input_username = $_POST["email"];
     $input_password = $_POST["password"];
 
-    $host = $env['DB_HOST'];
-    $dbname = $env['DB_NAME'];
-    $user = $env['DB_USER'];
-    $password = $env['DB_PASSWORD'];
-
-    $conn = new mysqli($host, $user, $password, $dbname);
-
-    if ($conn->connect_error) {
-        die("Database connection failed: " . $conn->connect_error);
-    }
-
     try {
-
         $stmt = $conn->prepare("SELECT * FROM user WHERE email = ?");
         $stmt->bind_param('s', $input_username);
         $stmt->execute();
@@ -50,7 +25,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } catch (Exception $e) {
         die("Error: " . $e->getMessage());
     } finally {
-
         $stmt->close();
         $conn->close();
     }
