@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $admin = $result->fetch_assoc();
 
         if ($admin && password_verify($input_password, $admin['password'])) {
-            $_SESSION["admin_logged_in"] = true;
+            $_SESSION["admin"] = true;
             header("Location: /admin"); 
             exit();
         } else {
