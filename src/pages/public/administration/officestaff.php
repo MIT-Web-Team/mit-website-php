@@ -172,4 +172,8 @@ echo '</div>';
             </section>
         </section>
     </div>
+    <script>
+        var imgElement = document.querySelector('.HeaderLogo img');
+        imgElement.setAttribute('src', '../../../assets/mit_logo.png');
+    </script>
 </html>
