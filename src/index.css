@@ -33,6 +33,7 @@
   --yellow: #ffcf59;
   --lightGreen: #a7ce4a;
   --lightBlue: #4e95df;
+  --black: #000000;
 
   display: flex;
   background-color: var(--body-color);
