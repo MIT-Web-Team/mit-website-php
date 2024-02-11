@@ -92,9 +92,9 @@
 						<li class="menu-items"><a class="" href="https://www.au-kbc.org/">AU-KBC Research Centre</a></li>
 						<li class="menu-items"><a class="" href="http://www.casr.mitindia.edu/">Centre for Aerospace Research</a></li>
 						<li class="menu-items"><a class="" href="http://www.casr.mitindia.edu/">Centre for IoT</a></li>
-						<li class="menu-items"><a class="" href="http://www.casr.mitindia.edu/">SCoE</a></li>
-						<li class="menu-items"><a class="" href="http://www.casr.mitindia.edu/">CEAT</a></li>
-						<li class="menu-items"><a class="" href="http://www.casr.mitindia.edu/">CRA</a></li>
+						<li class="menu-items"><a class="" href="https://mitindia.edu/en/research-centres/mit_scoe">SCoE</a></li>
+						<li class="menu-items"><a class="" href="https://mitindia.edu/en/research-centres/ceat_mit">CEAT</a></li>
+						<li class="menu-items"><a class="" href="https://cra.mitindia.edu/">CRA</a></li>
 					</ul>
 				</li>
 				<li class="menu-items">
