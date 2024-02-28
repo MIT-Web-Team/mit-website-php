@@ -7,6 +7,8 @@ RewriteEngine On
 
 RewriteRule ^announcements$ src/pages/public/announcements.php [L]
 
+RewriteRule ^about$ src/pages/public/about.php [L]
+
 RewriteRule ^administration/officestaff$ src/pages/public/administration/officestaff.php [L]
 
 # For other requests, if the requested filename is not an existing file or directory, redirect to index.php
