@@ -2,13 +2,13 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Office Staff</title>
-    <link rel="stylesheet" href="../../../index.css">
-    <link rel="stylesheet" href="../../../App.css">
-    <link rel="stylesheet" href="../../../components/Header/header.css">
-    <link rel="stylesheet" href="officestaff.css">
-    <link rel="stylesheet" href="../../../components/Footer/footer.css">
-    <link rel="stylesheet" href="../../../components/Modal/modal.css">
-    <link rel="stylesheet" href="../../../components/TextInput/textinput.css">
+    <link rel="stylesheet" href="/src/index.css">
+    <link rel="stylesheet" href="/src/App.css">
+    <link rel="stylesheet" href="/src/components/Header/header.css">
+    <link rel="stylesheet" href="/src/pages/public/administration/officestaff.css">
+    <link rel="stylesheet" href="/src/components/Footer/footer.css">
+    <link rel="stylesheet" href="/src/components/Modal/modal.css">
+    <link rel="stylesheet" href="/src/components/TextInput/textinput.css">
 </head>    
 <html>
     <div id="root">
@@ -35,7 +35,7 @@ function renderStaffCard($card) {
     echo '</div></div>';
 }
 
-$src = "../../../assets/Faculty/DeanOffice/";
+$src = "/src/assets/Faculty/DeanOffice/";
 
 $officeAdministration = array(
     array(
@@ -174,6 +174,6 @@ echo '</div>';
     </div>
     <script>
         var imgElement = document.querySelector('.HeaderLogo img');
-        imgElement.setAttribute('src', '../../../assets/mit_logo.png');
+        imgElement.setAttribute('src', '/src/assets/mit_logo.png');
     </script>
 </html>
