@@ -205,7 +205,7 @@
 	function signOut() {
     // Send an AJAX request to the server
     var xhr = new XMLHttpRequest();
-    xhr.open("POST", "../../apiservices/logout.php", true);
+    xhr.open("POST", "/src/apiservices/logout.php", true);
     xhr.onreadystatechange = function() {
         if (this.readyState === 4 && this.status === 200) {
             window.location.href = "/";
