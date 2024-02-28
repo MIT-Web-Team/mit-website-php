@@ -80,11 +80,11 @@ $footerContents = [
             ],
             [
                 "title" => "Library",
-                "url" => "",
+                "url" => "https://library.annauniv.edu/mit_index.php",
             ],
             [
                 "title" => "Health Centre",
-                "url" => "",
+                "url" => "http://www.health-centre.mitindia.edu/health_centre/",
             ],
             [
                 "title" => "Student Grievance Redressal",
@@ -103,7 +103,6 @@ echo '<div class="footer-container noselect">';
 echo '<span>';
 echo '<span>';
 echo '<h1>Anna University, MIT Campus</h1>';
-echo '<p>MIT Rd, Radha Nagar,</p>';
 echo '<p>Chromepet, Chennai - 600044.</p>';
 echo '<p>dean@mitindia.edu | +044 2251 6002</p>';
 echo '<div class="map-contact-container">';
