@@ -5,7 +5,7 @@ RewriteEngine On
 # RewriteCond %{REQUEST_FILENAME} !-d
 # RewriteRule ^([^/]+)$ /src/pages/$1.php [L]
 
-RewriteRule ^announcements$ src/pages/announcements.php [L]
+RewriteRule ^announcements$ src/pages/public/announcements.php [L]
 
 # For other requests, if the requested filename is not an existing file or directory, redirect to index.php
 RewriteCond %{REQUEST_FILENAME} !-f
