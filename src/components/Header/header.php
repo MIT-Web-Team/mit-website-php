@@ -2,7 +2,7 @@
 	<div class="header-top">
 		<a class="active" href="/" aria-current="page">
 			<h1 class="HeaderLogo">
-				<img src="src/assets/mit_logo.png">
+				<img src="/src/assets/mit_logo.png">
 			</h1>
 		</a>
 		<?php if (isset($_SESSION["admin"]) && $_SESSION["admin"]) { ?>

@@ -3,13 +3,13 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Announcements</title>
-    <link rel="stylesheet" href="../../index.css">
-    <link rel="stylesheet" href="../../App.css">
+    <link rel="stylesheet" href="/src/pages/index.css">
+    <link rel="stylesheet" href="/src/pages/App.css">
     <link rel="stylesheet" href="announcements.css">
-    <link rel="stylesheet" href="../../components/Header/header.css">
-    <link rel="stylesheet" href="../../components/Footer/footer.css">
-    <link rel="stylesheet" href="../../components/Modal/modal.css">
-    <link rel="stylesheet" href="../../components/TextInput/textinput.css">
+    <link rel="stylesheet" href="/src/components/Header/header.css">
+    <link rel="stylesheet" href="/src/components/Footer/footer.css">
+    <link rel="stylesheet" href="/src/components/Modal/modal.css">
+    <link rel="stylesheet" href="/src/components/TextInput/textinput.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <html>
@@ -24,7 +24,7 @@
 </div>
 <script>
     var imgElement = document.querySelector('.HeaderLogo img');
-    imgElement.setAttribute('src', '../../assets/mit_logo.png');
+    imgElement.setAttribute('src', '/src/assets/mit_logo.png');
 
     var announcementType = true; // Set this to false for archived announcements
 
@@ -161,7 +161,7 @@
     function renderAnnouncements() {
         // Fetch data from the server
         $.ajax({
-            url: '../../apiservices/fetch_announcements.php',
+            url: '/src/apiservices/fetch_announcements.php',
             type: 'POST',
             success: function(data) {
                 data = JSON.parse(data);
