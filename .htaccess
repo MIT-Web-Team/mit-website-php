@@ -11,6 +11,8 @@ RewriteRule ^about$ src/pages/public/about.php [L]
 
 RewriteRule ^administration/officestaff$ src/pages/public/administration/officestaff.php [L]
 
+RewriteRule ^scholarships$ src/pages/public/scholarships.php [L]
+
 # For other requests, if the requested filename is not an existing file or directory, redirect to index.php
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
