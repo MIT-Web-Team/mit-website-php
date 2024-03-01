@@ -3,13 +3,13 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scholarships</title>
-    <link rel="stylesheet" href="../../index.css">
-    <link rel="stylesheet" href="../../App.css">
-    <link rel="stylesheet" href="scholarships.css">
-    <link rel="stylesheet" href="../../components/Header/header.css">
-    <link rel="stylesheet" href="../../components/Footer/footer.css">
-    <link rel="stylesheet" href="../../components/Modal/modal.css">
-    <link rel="stylesheet" href="../../components/TextInput/textinput.css">
+    <link rel="stylesheet" href="/src/index.css">
+    <link rel="stylesheet" href="/src/App.css">
+    <link rel="stylesheet" href="/src/pages/public/scholarships.css">
+    <link rel="stylesheet" href="/src/components/Header/header.css">
+    <link rel="stylesheet" href="/src/components/Footer/footer.css">
+    <link rel="stylesheet" href="/src/components/Modal/modal.css">
+    <link rel="stylesheet" href="/src/components/TextInput/textinput.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <html>
@@ -24,7 +24,7 @@
 </div>
 <script>
     var imgElement = document.querySelector('.HeaderLogo img');
-    imgElement.setAttribute('src', '../../assets/mit_logo.png');
+    imgElement.setAttribute('src', '/src/assets/mit_logo.png');
 
     var scholarshipType = true; // Set this to false for archived scholarships
 
@@ -143,7 +143,7 @@
     function renderScholarships() {
         // Fetch data from the server
         $.ajax({
-            url: '../../apiservices/fetch_scholarships.php',
+            url: '/src/apiservices/fetch_scholarships.php',
             type: 'POST',
             success: function(data) {
                 data = JSON.parse(data);
