@@ -57,7 +57,7 @@ $centresData = [
     [
         "title" => "Sports",
         "img" => "src/assets/Facilities/sports.jpg",
-        "link" => "",
+        "link" => "https://mitindia.edu/en/sports-mit",
         // "description" => "2K+ Active Members",
     ],
     [
