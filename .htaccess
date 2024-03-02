@@ -9,7 +9,9 @@ RewriteRule ^announcements$ src/pages/public/announcements.php [L]
 
 RewriteRule ^about$ src/pages/public/about.php [L]
 
-RewriteRule ^administration/officestaff$ src/pages/public/administration/officestaff.php [L]
+RewriteRule ^administration/deanoffice$ src/pages/public/administration/deanoffice.php [L]
+
+RewriteRule ^administration/maintenanceoffice$ src/pages/public/administration/maintenanceoffice.php [L]
 
 RewriteRule ^scholarships$ src/pages/public/scholarships.php [L]
 

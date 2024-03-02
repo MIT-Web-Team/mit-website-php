@@ -80,9 +80,6 @@
   aspect-ratio: 1;
   width: 25px;
 }
-.text {
-  /* border: black solid 2px; */
-}
 
 @media only screen and (max-width: 800) {
     .staff-card-container {
