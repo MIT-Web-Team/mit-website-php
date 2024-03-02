@@ -2,13 +2,13 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About MIT</title>
-    <link rel="stylesheet" href="../../index.css">   
-    <link rel="stylesheet" href="../../App.css"> 
-    <link rel="stylesheet" href="about.css">
-    <link rel="stylesheet" href="../../components/Header/header.css">
-    <link rel="stylesheet" href="../../components/Footer/footer.css">
-    <link rel="stylesheet" href="../../components/Modal/modal.css">
-    <link rel="stylesheet" href="../../components/TextInput/textinput.css">
+    <link rel="stylesheet" href="/src/index.css">   
+    <link rel="stylesheet" href="/src/App.css"> 
+    <link rel="stylesheet" href="/src/pages/public/about.css">
+    <link rel="stylesheet" href="/src/components/Header/header.css">
+    <link rel="stylesheet" href="/src/components/Footer/footer.css">
+    <link rel="stylesheet" href="/src/components/Modal/modal.css">
+    <link rel="stylesheet" href="/src/components/TextInput/textinput.css">
 </head>  
 
 <div id="root">
@@ -140,7 +140,7 @@
       <div>
         <div class="list-text-container">
           <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 36 36" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><g data-name="92-Arrow Right"><path d="M16 32a16 16 0 1 1 16-16 16 16 0 0 1-16 16zm0-30a14 14 0 1 0 14 14A14 14 0 0 0 16 2z"/><path d="M13.71 24.71 12.3 23.3l7.29-7.3-7.3-7.29L13.7 7.3l8 8a1 1 0 0 1 0 1.41z"/></g></svg>
-          <div class="head-text"><a href="../../assets/MIT_Brochure.pdf" target="_blank" rel="noopener noreferrer">MIT Brochure</a></div>
+          <div class="head-text"><a href="/src/assets/MIT_Brochure.pdf" target="_blank" rel="noopener noreferrer">MIT Brochure</a></div>
         </div>
       </div>
       <div>
@@ -155,7 +155,7 @@
 </div>
 <script>
   var imgElement = document.querySelector('.HeaderLogo img');
-  imgElement.setAttribute('src', '../../assets/mit_logo.png');
+  imgElement.setAttribute('src', '/src/assets/mit_logo.png');
 
   function expand() {
     var aboutContentDiv = document.querySelector('.life-container .about-content');
