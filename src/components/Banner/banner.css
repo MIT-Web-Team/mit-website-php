@@ -43,41 +43,11 @@
 
 .banner > .right > .banner-image {
   width: 100%;
-  /* max-height: 500px; */
   max-height: 700px;
   object-fit: contain;
-  /* object-fit: cover; */
   @media only screen and (max-width: 910px) {
     max-height: 500px;
   }
-}
-
-.banner > .right > .book-image {
-  position: absolute;
-  top: 0;
-  left: 17%;
-  width: 50px;
-  aspect-ratio: 1;
-  object-fit: cover;
-  transform: rotate(-20deg);
-}
-
-.banner > .right > .chart-image {
-  position: absolute;
-  bottom: 23%;
-  left: 17%;
-  width: 40px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.banner > .right > .chat-image {
-  position: absolute;
-  top: 10%;
-  right: 12%;
-  width: 30px;
-  aspect-ratio: 1;
-  object-fit: cover;
 }
 
 .banner > .left {
@@ -104,8 +74,6 @@
     width: 100%;
   }
 }
-
-
 
 .banner > .left > span {
   font-size: 14px;
