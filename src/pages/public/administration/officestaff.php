@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <head>
+    <link rel="icon" href="src/assets/mit_logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Office Staff</title>
     <link rel="stylesheet" href="/src/index.css">
