@@ -5,8 +5,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 30px;
-  padding-bottom: 30px;
+  gap: 15px;
+  padding: 30px 0px;
 }
 
 .categories-container .description {
