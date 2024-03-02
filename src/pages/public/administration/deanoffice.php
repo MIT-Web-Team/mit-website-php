@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/src/index.css">
     <link rel="stylesheet" href="/src/App.css">
     <link rel="stylesheet" href="/src/components/Header/header.css">
-    <link rel="stylesheet" href="/src/pages/public/administration/officestaff.css">
+    <link rel="stylesheet" href="/src/pages/public/administration/deanoffice.css">
     <link rel="stylesheet" href="/src/components/Footer/footer.css">
     <link rel="stylesheet" href="/src/components/Modal/modal.css">
     <link rel="stylesheet" href="/src/components/TextInput/textinput.css">
