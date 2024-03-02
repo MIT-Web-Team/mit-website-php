@@ -22,7 +22,16 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-
+}
+.list-text-container{
+    font-size:large;
+    margin: 1.5%;
+    width: max-content;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .about-content{
     text-align: justify;
@@ -40,4 +49,15 @@
 }
 .head-text{
     margin: 0 0 0 10px;
+}
+.read-more, .read-less {
+    font-weight: bold;
+    color: blue;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+}
+.about-content .book {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
 }

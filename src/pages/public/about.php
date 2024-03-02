@@ -2,13 +2,13 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About MIT</title>
-    <link rel="stylesheet" href="/src/index.css">   
-    <link rel="stylesheet" href="/src/App.css"> 
-    <link rel="stylesheet" href="/src/pages/public/about.css">
-    <link rel="stylesheet" href="/src/components/Header/header.css">
-    <link rel="stylesheet" href="/src/components/Footer/footer.css">
-    <link rel="stylesheet" href="/src/components/Modal/modal.css">
-    <link rel="stylesheet" href="/src/components/TextInput/textinput.css">
+    <link rel="stylesheet" href="../../index.css">   
+    <link rel="stylesheet" href="../../App.css"> 
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="../../components/Header/header.css">
+    <link rel="stylesheet" href="../../components/Footer/footer.css">
+    <link rel="stylesheet" href="../../components/Modal/modal.css">
+    <link rel="stylesheet" href="../../components/TextInput/textinput.css">
 </head>  
 
 <div id="root">
@@ -51,6 +51,30 @@
                 regional limitations both in regard to its staff and students.
               </li>
             </ul>
+          </div>
+        </div>
+        <div class="life-container">
+          <div class="head-text-container">
+          <svg class="svg-icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M512 597.994667q108.010667 0 225.002667 46.997333t116.992 123.008l0 85.994667-684.010667 0 0-85.994667q0-76.010667 116.992-123.008t225.002667-46.997333zM512 512q-69.994667 0-120-50.005333t-50.005333-120 50.005333-121.002667 120-51.008 120 51.008 50.005333 121.002667-50.005333 120-120 50.005333z"  /></svg>
+            <div class="head-text">Life of Shri. C. Rajam</div>
+          </div>
+          <div class="about-content">
+          Shri Chinnaswami Rajam was described as a "pioneer in the Industrial Field" 
+          by the late Dr.C.P.Ramaswami Iyer. It is normally a fact that an enterprising 
+          person becomes an entrepreneur, leading himself to the path of being crowned 
+          as an Industrial Magnate. Until the first half of his life time Shri Rajam, 
+          even though youthful, dynamic, aspiring and hard-working, did not get his break.
+          <br><br>
+          He was born on 28th Nov. 1882, in the village of Swamimalai, near Kumbakonam. 
+          He had his High School education at the Town High School, Kumbakonam. Till 1904, 
+          he was staying at Kumbakonam, searching for a job. In 1904, he joined the Salem 
+          Government Weaving School, and learnt the art of weaving. Then he started his own 
+          handloom factory at Salem with a capital of Rs.1,000/- and manufactured dhoties, 
+          towels, shirtings etc, with fly-shuttle looms. After that, Shri Rajam tried out 
+          his hand in many jobs like grocery shop, canvassed orders for a tannery firm, 
+          managed a leather goods show room etc.
+          <br><button class="read-more" onclick="expand()">Read More</button><button class="read-less" style="display: None;" onclick="shrink()">Read Less</button>
+          <br><div class="book" style="color: red;"><a href="https://drive.google.com/open?id=1SaDpUFyzUMkzsKDt2Ju-a9PSNtTZMrgE" target="_blank" rel="noopener noreferrer">A Visionary's Reach  compiled by Dr. Prema Srinivasan</a></div>
           </div>
         </div>
         <div class="unique-experiment-container">
@@ -101,11 +125,101 @@
           </div>
         </div>
       </div>
+      <div>
+        <div class="list-text-container">
+          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 36 36" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><g data-name="92-Arrow Right"><path d="M16 32a16 16 0 1 1 16-16 16 16 0 0 1-16 16zm0-30a14 14 0 1 0 14 14A14 14 0 0 0 16 2z"/><path d="M13.71 24.71 12.3 23.3l7.29-7.3-7.3-7.29L13.7 7.3l8 8a1 1 0 0 1 0 1.41z"/></g></svg>
+          <div class="head-text"><a href="https://www.annauniv.edu/Strategic_plan_roadmap.pdf" target="_blank" rel="noopener noreferrer">Strategic Plan with Road Map</a></div>
+        </div>
+      </div>
+      <div>
+        <div class="list-text-container">
+          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 36 36" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><g data-name="92-Arrow Right"><path d="M16 32a16 16 0 1 1 16-16 16 16 0 0 1-16 16zm0-30a14 14 0 1 0 14 14A14 14 0 0 0 16 2z"/><path d="M13.71 24.71 12.3 23.3l7.29-7.3-7.3-7.29L13.7 7.3l8 8a1 1 0 0 1 0 1.41z"/></g></svg>
+          <div class="head-text"><a href="https://www.annauniv.edu/core_values.pdf" target="_blank" rel="noopener noreferrer">Core Values</a></div>
+        </div>
+      </div>
+      <div>
+        <div class="list-text-container">
+          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 36 36" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><g data-name="92-Arrow Right"><path d="M16 32a16 16 0 1 1 16-16 16 16 0 0 1-16 16zm0-30a14 14 0 1 0 14 14A14 14 0 0 0 16 2z"/><path d="M13.71 24.71 12.3 23.3l7.29-7.3-7.3-7.29L13.7 7.3l8 8a1 1 0 0 1 0 1.41z"/></g></svg>
+          <div class="head-text"><a href="../../assets/MIT_Brochure.pdf" target="_blank" rel="noopener noreferrer">MIT Brochure</a></div>
+        </div>
+      </div>
+      <div>
+        <div class="list-text-container">
+          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 36 36" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><g data-name="92-Arrow Right"><path d="M16 32a16 16 0 1 1 16-16 16 16 0 0 1-16 16zm0-30a14 14 0 1 0 14 14A14 14 0 0 0 16 2z"/><path d="M13.71 24.71 12.3 23.3l7.29-7.3-7.3-7.29L13.7 7.3l8 8a1 1 0 0 1 0 1.41z"/></g></svg>
+          <div class="head-text"><a href="http://www.mitindia.edu/Mit_Codes_custom/Virtual_Tour/mit-Campus_tour/" target="_blank" rel="noopener noreferrer">360 MIT Campus Tour</a></div>
+        </div>
+      </div>
       <?php include '../../components/Footer/footer.php'; ?>
     </section>
   </section>
 </div>
 <script>
   var imgElement = document.querySelector('.HeaderLogo img');
-  imgElement.setAttribute('src', '/src/assets/mit_logo.png');
+  imgElement.setAttribute('src', '../../assets/mit_logo.png');
+
+  function expand() {
+    var aboutContentDiv = document.querySelector('.life-container .about-content');
+
+    aboutContentDiv.innerHTML = `
+      Shri Chinnaswami Rajam was described as a "pioneer in the Industrial Field" 
+      by the late Dr.C.P.Ramaswami Iyer. It is normally a fact that an enterprising 
+      person becomes an entrepreneur, leading himself to the path of being crowned 
+      as an Industrial Magnate. Until the first half of his life time Shri Rajam, 
+      even though youthful, dynamic, aspiring and hard-working, did not get his break.
+      <br><br>
+      He was born on 28th Nov. 1882, in the village of Swamimalai, near Kumbakonam. 
+      He had his High School education at the Town High School, Kumbakonam. Till 1904, 
+      he was staying at Kumbakonam, searching for a job. In 1904, he joined the Salem 
+      Government Weaving School, and learnt the art of weaving. Then he started his own 
+      handloom factory at Salem with a capital of Rs.1,000/- and manufactured dhoties, 
+      towels, shirtings etc, with fly-shuttle looms. After that, Shri Rajam tried out 
+      his hand in many jobs like grocery shop, canvassed orders for a tannery firm, 
+      managed a leather goods show room etc.
+      <br><br>
+      Then he started an Indian Company with a meager capital of Rs.1700/- which manufactured 
+      Coal Tar and was very successful. The India Company Ltd., Madras, took up the agency 
+      for Tata Steel in 1923, and for about ten years it was selling nearly 2,000 tons of 
+      steel per month on a small commission. This enhanced his reputation very much in Madras 
+      city, and he became one of the important business magnates which is similar to Indian 
+      online casino sites.
+      <br><br>
+      He started the Kumbakonam Electric Supply Corporation Ltd. in 1932, and the Negapatam 
+      Electric Supply Company Ltd. and Indian Steel Rolling Mills Ltd. in the year 1933, 
+      and these companies had flourished very well. The paid-up capital of these companies 
+      exceeded Rs.50 lakhs. He had been leading a princely life throughout. In 1944, when 
+      his wife died, he made up his mind to minimize his comforts and sold his two bungalows, 
+      and gave a donation of Rs.5 lakhs to start "THE MADRAS INSTITUTE OF TECHNOLOGY." For the 
+      Rolling Mills and Electric Supply Companies, he had to get foreigners even for erection 
+      work and therefore immediately made up his mind to produce practical Engineers and 
+      Scientists in India, for starting industrial concerns, or for taking up posts in the 
+      Defence departments and replace foreigners in due course. This has become a 'fait accompli' 
+      and the Institute has flourished very well during the past years. And many of the students 
+      have been absorbed in the Defence services, and in big industrial establishments.
+      <br><button class="read-more" style="display: None;" onclick="expand()">Read More</button><button class="read-less" onclick="shrink()">Read Less</button>
+      <br><div class="book" style="color: red;"><a href="https://drive.google.com/open?id=1SaDpUFyzUMkzsKDt2Ju-a9PSNtTZMrgE" target="_blank" rel="noopener noreferrer">A Visionary's Reach  compiled by Dr. Prema Srinivasan</a></div>
+    `;
+  };
+
+  function shrink() {
+    var aboutContentDiv = document.querySelector('.life-container .about-content');
+
+    aboutContentDiv.innerHTML = `
+      Shri Chinnaswami Rajam was described as a "pioneer in the Industrial Field" 
+      by the late Dr.C.P.Ramaswami Iyer. It is normally a fact that an enterprising 
+      person becomes an entrepreneur, leading himself to the path of being crowned 
+      as an Industrial Magnate. Until the first half of his life time Shri Rajam, 
+      even though youthful, dynamic, aspiring and hard-working, did not get his break.
+      <br><br>
+      He was born on 28th Nov. 1882, in the village of Swamimalai, near Kumbakonam. 
+      He had his High School education at the Town High School, Kumbakonam. Till 1904, 
+      he was staying at Kumbakonam, searching for a job. In 1904, he joined the Salem 
+      Government Weaving School, and learnt the art of weaving. Then he started his own 
+      handloom factory at Salem with a capital of Rs.1,000/- and manufactured dhoties, 
+      towels, shirtings etc, with fly-shuttle looms. After that, Shri Rajam tried out 
+      his hand in many jobs like grocery shop, canvassed orders for a tannery firm, 
+      managed a leather goods show room etc.
+      <br><button class="read-more" onclick="expand()">Read More</button><button class="read-less" style="display: None;" onclick="shrink()">Read Less</button>
+      <br><div class="book" style="color: red;"><a href="https://drive.google.com/open?id=1SaDpUFyzUMkzsKDt2Ju-a9PSNtTZMrgE" target="_blank" rel="noopener noreferrer">A Visionary's Reach  compiled by Dr. Prema Srinivasan</a></div>
+    `;
+  };
 </script>
