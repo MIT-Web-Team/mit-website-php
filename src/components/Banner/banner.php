@@ -39,7 +39,22 @@ $MITFrontGate = "src/assets/mit-front.jpg";
         </div>
     </div>
     <div class="right">
-        <img src="<?php echo $MITFrontGate; ?>" class="banner-image" />
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img class="d-block w-100 banner-image" src="src/assets/mit-front.jpg">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img class="d-block w-100 banner-image" src="src/assets/mit-road.jpg">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img class="d-block w-100 banner-image" src="src/assets/qs-ranking.jpg">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img class="d-block w-100 banner-image" src="src/assets/rajam.jpeg">
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <script>

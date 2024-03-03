@@ -22,7 +22,7 @@
   flex: 1;
 }
 
-.banner > .right::before {
+.banner .right::before {
   display: block;
   position: absolute;
   background-image: linear-gradient(
@@ -41,7 +41,7 @@
   }
 }
 
-.banner > .right > .banner-image {
+.banner > .right .banner-image {
   width: 100%;
   max-height: 700px;
   object-fit: contain;
@@ -81,7 +81,7 @@
   color: var(--secondary-color);
 }
 
-.banner > .left > .logo-container> h1 {
+.banner > .left > .logo-container > h1 {
   /* font-size: 60px; */
   font-size: 60px;
   font-weight: 700;
@@ -94,10 +94,15 @@
     font-size: 30px;
   }
 }
+
+.banner > .left > .logo-container > h1 > p {
+  margin: 0;
+}
 .banner > .left > .campus-container {
   /* font-size: 60px; */
   font-size: 30px;
   font-weight: 600;
+  margin: 0;
   color: var(--primary-color);
   text-transform: capitalize;
   @media only screen and (max-width: 910px) {
@@ -108,6 +113,7 @@
   /* font-size: 60px; */
   font-size: 27px;
   font-weight: 600;
+  margin: 0;
   color: var(--secondary-color);
   text-transform: capitalize;
 }
@@ -149,7 +155,7 @@
 
 .banner > .left > .description > p {
   font-weight: 500;
-  
+  margin: 0;
   color: var(--primary-color-light);
   line-height: 1.5;
   @media only screen and (max-width: 1280px) {
