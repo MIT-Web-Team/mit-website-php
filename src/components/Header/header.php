@@ -60,7 +60,6 @@
 						<li class="menu-items"><a class="" href="https://annauniv.irins.org/profile/43400">Head of the Departments</a></li>
 						<li class="menu-items"><a class="" href="https://annauniv.irins.org/profile/43400">Centre's Directors</a></li>
 						<li class="menu-items"><a class="" href="/administration/deanoffice">Dean Office Staff</a></li>
-						<li class="menu-items"><a class="" href="/administration/maintenanceoffice">Maintenance Office Staff</a></li>
 					</ul>
 				</li>
 				<li class="menu-items">
