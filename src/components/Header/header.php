@@ -57,8 +57,8 @@
 						<li class="menu-items"><a class="" href="https://www.annauniv.edu/#vcmsg">VC's Desk</a></li>
 						<li class="menu-items"><a class="" href="https://www.annauniv.edu/administration.php">Registrar</a></li>
 						<li class="menu-items"><a class="" href="https://annauniv.irins.org/profile/43400">Dean</a></li>
-						<li class="menu-items"><a class="" href="https://annauniv.irins.org/profile/43400">Head of the Departments</a></li>
-						<li class="menu-items"><a class="" href="https://annauniv.irins.org/profile/43400">Centre's Directors</a></li>
+						<li class="menu-items"><a class="" href="/hods">Head of the Departments</a></li>
+						<li class="menu-items"><a class="" href="/directors">Centre's Directors</a></li>
 						<li class="menu-items"><a class="" href="/administration/deanoffice">Dean Office Staff</a></li>
 					</ul>
 				</li>
@@ -83,6 +83,7 @@
 								<li class="menu-items"><a class="" href="https://ctdt.annauniv.edu/">Centre for Sponsored Research and Consultancy</a></li>
 								<li class="menu-items"><a class="" href="https://acoe.annauniv.edu/">Additional Controller for Examinations</a></li>
 								<li class="menu-items"><a class="" href="https://cfd.annauniv.edu/">Centre for Faculty Development</a></li>
+								<li class="menu-items"><a class="" href="https://www.annauniv.edu/">Others</a></li>
 							</ul>
 						</li>
 						<li class="menu-items">
