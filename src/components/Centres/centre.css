@@ -57,6 +57,7 @@
   /* margin: -60px; */
   /* margin-left: 0; */
   position: relative;
+  cursor: pointer;
 }
 
 /* .staggered-cards-container .staggered-cards-wrapper > .card:nth-child(4n + 1) {

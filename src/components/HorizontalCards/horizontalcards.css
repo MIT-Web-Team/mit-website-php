@@ -39,6 +39,7 @@
   gap: 10px;
   font-size: 30px;
   border: 1px solid #dedede;
+  cursor: pointer;
   @media (max-width: 768px) {
     min-width: 100%;
   }
