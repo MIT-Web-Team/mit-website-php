@@ -99,7 +99,7 @@ $footerContents = [
 ];
 ?>
 
-<div class="footer">
+<div class="footer-container">
     <div class="footer-wrapper">
         <div class="footer-row">
             <?php foreach ($footerContents as $section) : ?>
