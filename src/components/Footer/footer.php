@@ -17,12 +17,8 @@ $footerContents = [
                 "url" => "",
             ],
             [
-                "title" => "CSRC",
-                "url" => "http://ctdt.annauniv.edu/",
-            ],
-            [
-                "title" => "Students Feedback",
-                "url" => "http://fbonline.annauniv.edu:8080/fb/fb.jsp",
+                "title" => "Feedback Portal",
+                "url" => "https://fb.annauniv.edu/fbreport/index.php",
             ],
         ],
     ],
@@ -83,12 +79,12 @@ $footerContents = [
                 "url" => "https://cc.mitindia.edu/",
             ],
             [
-                "title" => "Library",
-                "url" => "https://library.annauniv.edu/mit_index.php",
+                "title" => "Payslip",
+                "url" => "http://10.11.80.135/onlinepayslip/",
             ],
             [
-                "title" => "Health Centre",
-                "url" => "http://www.health-centre.mitindia.edu/health_centre/",
+                "title" => "POSH",
+                "url" => "https://www.annauniv.edu/POSH/index.php",
             ],
             [
                 "title" => "Student Grievance Redressal",
