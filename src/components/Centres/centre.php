@@ -1,13 +1,7 @@
 <?php
 $centresData = [
     [
-        "title" => "Computer Centre",
-        "img" => "src/assets/Facilities/computer_centre.jpg",
-        "link" => "https://cc.mitindia.edu/",
-        // "description" => "2K+ Active Members",
-    ],
-    [
-        "title" => "AUKBC - MIT",
+        "title" => "AUKBC",
         "img" => "src/assets/Facilities/aukbc.jpg",
         "link" => "https://www.au-kbc.org/",
         // "description" => "2K+ Active Members",
@@ -40,6 +34,12 @@ $centresData = [
         "title" => "CRA",
         "img" => "src/assets/Facilities/cra.png",
         "link" => "https://cra.mitindia.edu/",
+        // "description" => "2K+ Active Members",
+    ],
+    [
+        "title" => "Computer Centre",
+        "img" => "src/assets/Facilities/computer_centre.jpg",
+        "link" => "https://cc.mitindia.edu/",
         // "description" => "2K+ Active Members",
     ],
     [
