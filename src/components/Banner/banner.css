@@ -25,13 +25,14 @@
 .banner .right::before {
   display: block;
   position: absolute;
+  z-index: 1;
   background-image: linear-gradient(
     to left,
     rgba(255, 255, 255, 0) 0,
     #f9fbfc 30%
   );
   height: 110%;
-  width: 10%;
+  width: 5%;
   content: "";
 }
 
@@ -126,6 +127,7 @@
 
 .banner > .left > .rank {
   display: flex;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 910px) {

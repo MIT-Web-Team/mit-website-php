@@ -22,11 +22,11 @@ $MITFrontGate = "src/assets/mit-front.jpg";
             <p>with alumni footprints in all domains across the globe</p>
         </div>
         <div class="rank">
-            <p class="rank-tag" id="accredit">Accreditaion :</p>
+            <p class="rank-tag" id="accredit">Accreditaion</p>
             <p class="campus-container" id="accredit">NBA & NAAC</p>
-            <p class="rank-tag">NIRF Rank :</p>
+            <p class="rank-tag">NIRF Rank</p>
             <p class="campus-container">21</p>
-            <p class="rank-tag">QS Rank :</p>
+            <p class="rank-tag">QS Rank </p>
             <p class="campus-container">35</p>
         </div>
         <div class="flex-row">
