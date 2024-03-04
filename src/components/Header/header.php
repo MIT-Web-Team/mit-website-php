@@ -25,6 +25,7 @@
 						<li class="menu-items"><a class="" href="https://www.annauniv.edu/">AU Home</a></li>
 						<li class="menu-items"><a class="" href="/about">About MIT</a></li>
 						<li class="menu-items"><a class="" href="/https://www.annauniv.edu/organogram.pdf">Organogram</a></li>
+						<li class="menu-items"><a class="" href="/src/assets/AU_Policy.pdf">Policies</a></li>
 					</ul>
 				</li>
 				<li class="menu-items">
