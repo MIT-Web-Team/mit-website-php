@@ -18,14 +18,14 @@ function openLink()
             Madras Institute of Technology (MIT) is a pioneering technological institution in India, satiating the technical thirst of many young aspiring professionals through state-of-the-art facilities, excellence infrastructure, high quality Laboratories and Centres of excellence. The institute has received generous funding support from various National and International Funding agencies and its administration ultimately provides a stimulating environment conducive to studies and research.
           </blockquote>
         </span>
-        <span>Prof. J. Prakash, Dean</span>
+        <span>Prof.Dr.K.Ravichandran, Dean</span>
       </div>
       <div class="flex-row">
         <button class="more-button" onclick="openProfile()">Know More</button>
       </div>
     </div>
     <div class="deanImage">
-      <img src='src\components\Dean\dean.png' />
+      <img src='src/components/Dean/dean.png'/>
     </div>
   </div>
 </div>
