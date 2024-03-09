@@ -30,50 +30,18 @@
     var imgElement = document.querySelector('.HeaderLogo img');
     imgElement.setAttribute('src', '/src/assets/mit_logo.png');
 
-    var scholarshipType = true; // Set this to false for archived scholarships
-
-    var scholarshipContainer = document.createElement('div');
-    scholarshipContainer.className = 'scholarshipContainer noselect';
-    var recentTextContainer = document.createElement('div');
-    recentTextContainer.className = 'recentTextContainer';
-    var scholarshipTypeDiv = document.createElement('div');
-    scholarshipTypeDiv.className = 'scholarshipType';
-    var activeButton = document.createElement('div');
-    activeButton.id = 'active';
-    activeButton.className = scholarshipType ? 'active' : 'passive';
-    activeButton.textContent = 'Active';
-    var archiveButton = document.createElement('div');
-    archiveButton.id = 'archive';
-    archiveButton.className = !scholarshipType ? 'active' : 'passive';
-    archiveButton.textContent = 'Archive';
-    activeButton.addEventListener('click', function() {
-        scholarshipType = true;
-        activeButton.className = 'active';
-        archiveButton.className = 'passive';
-        renderScholarships();
-    });
-    archiveButton.addEventListener('click', function() {
-        scholarshipType = false;
-        activeButton.className = 'passive';
-        archiveButton.className = 'active';
-        renderScholarships();
-    });
-    scholarshipTypeDiv.appendChild(activeButton);
-    scholarshipTypeDiv.appendChild(archiveButton);
-    recentTextContainer.appendChild(scholarshipTypeDiv);
-    scholarshipContainer.appendChild(recentTextContainer);
-    var pageContainer = document.querySelector('.page-container');
-    var footer = document.querySelector('.footer-container');
-    pageContainer.insertBefore(scholarshipContainer, footer);
-
-    function renderScholarshipCard(data, scholarshipType) {
+    function renderScholarshipCard(data) {
         var scholarshipDate = new Date(data.scholarshipDate);
         var formattedDate = scholarshipDate.getDate() + "-" + (scholarshipDate.getMonth() + 1) + "-" + scholarshipDate.getFullYear();
         var outerContainer = document.createElement('div');
-        outerContainer.className = 'outerContainer';
-        outerContainer.onclick = function() {
-            window.open(data.viewmore, '_blank');
-        };
+        if (new Date(data.scholarshipValidity) >= new Date()) {
+            outerContainer.className = 'outerContainer active';
+            outerContainer.onclick = function() {
+                window.open(data.viewmore, '_blank');
+            };
+        } else {
+            outerContainer.className = 'outerContainer';
+        }
         var textContainer = document.createElement('div');
         textContainer.className = 'textContainer';
         var headContainer = document.createElement('div');
@@ -92,11 +60,11 @@
         path.setAttribute('clip-rule', 'evenodd');
         svg.appendChild(path);
         headContainer.appendChild(svg);
-        if (scholarshipType) {
-            var blinkingDiv = document.createElement('div');
-            blinkingDiv.className = 'blinking-div';
-            headContainer.appendChild(blinkingDiv);
-        }
+        // if (scholarshipType) {
+        //     var blinkingDiv = document.createElement('div');
+        //     blinkingDiv.className = 'blinking-div';
+        //     headContainer.appendChild(blinkingDiv);
+        // }
         var title = document.createElement('div');
         title.className = 'title';
         title.textContent = data.scholarshipTitle;
@@ -126,24 +94,6 @@
         });
     }
 
-    function separateScholarships(array) {
-        var today = new Date();
-        var recentScholarships = [];
-        var otherScholarships = [];
-        array.forEach(function(item) {
-            var timestamp = new Date(item.scholarshipValidity);
-            if (timestamp >= today) {
-                recentScholarships.push(item);
-            } else {
-                otherScholarships.push(item);
-            }
-        });
-        return {
-            'recent': recentScholarships,
-            'other': otherScholarships
-        };
-    }
-
     function renderScholarships() {
         // Fetch data from the server
         $.ajax({
@@ -151,8 +101,6 @@
             type: 'POST',
             success: function(data) {
                 data = JSON.parse(data);
-                console.log(data);
-                var separatedScholarships = separateScholarships(data);
                 var possibleScholarshipTypes = getAllScholarshipTypes(data);
                 // Remove the current recentContainer
                 var recentContainer = document.querySelector('.recentContainer');
@@ -167,10 +115,9 @@
                     scholarshipTypeContainer.className = 'scholarshipTypeContainer';
                     var scholarshipCardContainer = document.createElement('div');
                     scholarshipCardContainer.className = 'scholarshipCardContainer';
-                    var separatedScholarshipsList = scholarshipType ? separatedScholarships.recent : separatedScholarships.other;
-                    var filteredScholarships = filterScholarship(separatedScholarshipsList, possibleScholarshipType);
+                    var filteredScholarships = filterScholarship(data, possibleScholarshipType);
                     filteredScholarships.forEach(function(scholarship) {
-                        var scholarshipCard = renderScholarshipCard(scholarship, scholarshipType);
+                        var scholarshipCard = renderScholarshipCard(scholarship);
                         scholarshipCardContainer.appendChild(scholarshipCard);
                     });
                     scholarshipTypeContainer.appendChild(scholarshipCardContainer);
