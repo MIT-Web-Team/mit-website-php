@@ -95,31 +95,38 @@ $footerContents = [
 ];
 ?>
 
-<div class="footer-container">
-    <div class="footer-wrapper">
-        <div class="footer-row">
-            <?php foreach ($footerContents as $section) : ?>
-                <div class="footer-column">
-                    <div class="footer-title"><?php echo $section['title']; ?></div>
+<footer class="footer-container">
+    <div class="footer-div">
+        <?php foreach ($footerContents as $section) : ?>
+            <div class="footer-div-box footer-left">
+                <h3><?php echo $section['title']; ?><br /></h3>
+                <p class="footer-links">
                     <?php foreach ($section['content'] as $link) : ?>
                         <a class="footer-link" target="_blank" rel="noreferrer" href="<?php echo $link['url']; ?>"><?php echo $link['title']; ?></a>
                     <?php endforeach; ?>
-                </div>
-            <?php endforeach; ?>
-            <div class="footer-center">
-                <div>
-                    <i class="fa-solid fa-location-dot"> </i>
-                    <p><span>Anna University, MIT Campus</span> Chrompet, Chennai 600044</p>
-                </div>
-                <div>
-                    <i class="fa fa-phone"></i>
-                    <p>044 2251 6002</p>
-                </div>
-                <div>
-                    <i class="fa fa-envelope"></i>
-                    <p>dean@mitindia.edu</p>
-                </div>
+                </p>
+            </div>
+        <?php endforeach; ?>
+        <div class="footer-div-box footer-right">
+            <div>
+                <i class="footer-address-icon"></i>
+                <p>
+                    Anna University,<br> MIT Campus
+                    <span>Chromepet, Chennai 
+                        600044</span>
+                </p>
+            </div>
+            <div>
+                <i class="footer-address-icon footer-phone"></i>
+                <p>044 2251 6002</p>
+            </div>
+            <div>
+                <i class="footer-address-icon footer-mail"></i>
+                <p>dean@mitindia.edu</p>
             </div>
         </div>
     </div>
-</div>
+    <p class="footer-team-name">
+        Copyright © 2024 Madras Institute of Technology | Designed And Maintained by WebTeam MitIndia
+    </p>
+</footer>
