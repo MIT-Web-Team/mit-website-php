@@ -3,7 +3,7 @@
 <head>
     <link rel="icon" href="src/assets/mit_logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOD</title>
+    <title>Head of the Departments</title>
     <link rel="stylesheet" href="/src/index.css">   
     <link rel="stylesheet" href="/src/App.css"> 
     <link rel="stylesheet" href="/src/pages/public/hod.css">
