@@ -6,7 +6,7 @@ function openLink()
 ?>
 
 <div class="deanMain">
-  <div class="deanMask" style="display: flex; flex-direction: row; height: 100%; width: 100%; background-color: rgba(82, 95, 225, 0.85); justify-content: space-between; --darkreader-inline-bgcolor: rgba(26, 37, 147, 0.85);">
+  <div class="deanMask" style="display: flex; flex-direction: row; height: 100%; width: 100%; background-color: rgba(199, 156, 99, 0.85); justify-content: space-between; --darkreader-inline-bgcolor: rgba(199, 156, 99, 0.85);">
     <div class="deanContent">
       <div class="deanTitle">
         <span>Limitless Learning, </span>
