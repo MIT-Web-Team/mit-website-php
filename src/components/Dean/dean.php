@@ -32,7 +32,7 @@ function openLink()
 
 <script>
   function openProfile() {
-      var websiteURL = 'https://annauniv.irins.org/profile/43400';
+      var websiteURL = 'https://vidwan.inflibnet.ac.in/profile/117989';
       window.open(websiteURL, '_blank');
   }
 </script>
