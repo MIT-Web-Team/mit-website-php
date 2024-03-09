@@ -49,21 +49,21 @@ $officeAdministration = array(
         "extension" => "9962085868/044-22516301"
     ),
     array(
-        "image" => $src . "MrsMSrimathi.png",
-        "name" => "Ms. M. Srimathi",
-        "designation" => "Superintendent",
-        "extension" => "9444276725/044-22516000"
+        "image" => $src . "MsVVSUsha.jpg",
+        "name" => "Ms. V. V. S. Usha",
+        "designation" => "Assistant Registrar ",
+        "extension" => "044-22516006"
     ),
     array(
         "image" => $src . "MrsSAkila.png",
         "name" => "Ms. S. Akila",
-        "designation" => "PA to Dean",
+        "designation" => "Stenographer Grade - I",
         "extension" => "044-22516002"
     ),
     array(
         "image" => $src . "MrSGurunathan.png",
         "name" => "Mr. Gurunathan",
-        "designation" => "Office Assistant",
+        "designation" => "Helper",
         "extension" => ""
     )
 );
@@ -90,18 +90,12 @@ $financeSection = array(
     array(
         "image" => $src . "MrsGAlli.png",
         "name" => "Ms. G. Alli",
-        "designation" => "Mrs.G.Alli",
+        "designation" => "Clerical Assistant",
         "extension" => "044-22516026"
     )
 );
 
 $studentSection = array(
-    array(
-        "image" => $src . "MrsFathima.png",
-        "name" => "Ms. H. Sayed Ali Rasul Fathima",
-        "designation" => "Assistant",
-        "extension" => "044-22516003"
-    ),
     array(
         "image" => $src . "MrsRAnandhi.png",
         "name" => "Ms. R. Anandhi",
@@ -109,16 +103,10 @@ $studentSection = array(
         "extension" => "044-22516004"
     ),
     array(
-        "image" => $src . "MrsKSasikumari.png",
-        "name" => "Ms. K. Sasikumari",
+        "image" => $src . "",
+        "name" => "Mr M. P. Nithyandian",
         "designation" => "Lab Assistant",
         "extension" => "044-22516005"
-    ),
-    array(
-        "image" => $src . "MrTJohnson.png",
-        "name" => "Mr. T. Johnson",
-        "designation" => "Lab Assistant",
-        "extension" => ""
     ),
     array(
         "image" => $src . "MsSDivya.png",
@@ -139,8 +127,8 @@ $studentSection = array(
         "extension" => "044-22516004"
     ),
     array(
-        "image" => $src . "MrRKathiravan.png",
-        "name" => "Mr. R. Kathiravan",
+        "image" => $src . "MrBGopinath.jpg",
+        "name" => "Mr. B. Gopinath",
         "designation" => "Peon",
         "extension" => ""
     )
