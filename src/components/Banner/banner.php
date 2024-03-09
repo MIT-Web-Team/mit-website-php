@@ -21,8 +21,8 @@ $MITFrontGate = "src/assets/mit-front.jpg";
             <p>A Benchmarked Institution for Engineering and Technology</p>
             <p>with alumni footprints in all domains across the globe</p>
         </div>
-        <div class="rank">
-            <p class="rank-tag" id="accredit">Accreditaion</p>
+        <div class="rank" id="accredit">
+            <p class="rank-tag">Accreditaion</p>
             <p class="campus-container" id="accredit">NBA & NAAC</p>
             <p class="rank-tag">NIRF Rank</p>
             <p class="campus-container">21</p>
