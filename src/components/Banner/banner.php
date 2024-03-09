@@ -39,7 +39,7 @@ $MITFrontGate = "src/assets/mit-front.jpg";
         </div>
     </div>
     <div class="right">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="2000">
                     <img class="d-block w-100 banner-image" src="src/assets/mit-front.jpg">
@@ -54,7 +54,8 @@ $MITFrontGate = "src/assets/mit-front.jpg";
                     <img class="d-block w-100 banner-image" src="src/assets/rajam.jpeg">
                 </div>
             </div>
-        </div>
+        </div> -->
+        <img class="banner-image" src="src/assets/mit-front.jpg">
     </div>
 </div>
 <script>

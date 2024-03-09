@@ -170,7 +170,7 @@
 
 .banner > .left > .rank {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: 30px;
 }
 .banner > .left > .flex-row {
