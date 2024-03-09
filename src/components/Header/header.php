@@ -59,7 +59,7 @@
 						<li class="menu-items"><a class="" href="https://www.annauniv.edu/administration.php">Registrar</a></li>
 						<li class="menu-items"><a class="" href="https://annauniv.irins.org/profile/43400">Dean</a></li>
 						<li class="menu-items"><a class="" href="/hods">Head of the Departments</a></li>
-						<li class="menu-items"><a class="" href="/directors">Centre's Directors</a></li>
+						<li class="menu-items"><a class="" href="/directors">Centre Directors</a></li>
 						<li class="menu-items"><a class="" href="/administration/deanoffice">Dean Office Staff</a></li>
 					</ul>
 				</li>
