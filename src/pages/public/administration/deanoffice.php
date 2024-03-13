@@ -46,7 +46,7 @@ $officeAdministration = array(
         "image" => $src . "MrMMaheswaran.png",
         "name" => "Mr. M. Maheswaran",
         "designation" => "Deputy Registrar",
-        "extension" => "9962085868/044-22516301"
+        "extension" => "9962085868/044-22516007"
     ),
     array(
         "image" => $src . "MsVVSUsha.jpg",
@@ -57,12 +57,12 @@ $officeAdministration = array(
     array(
         "image" => $src . "MrsSAkila.png",
         "name" => "Ms. S. Akila",
-        "designation" => "Stenographer Grade - I",
+        "designation" => "Stenographer Grade-I",
         "extension" => "044-22516002"
     ),
     array(
         "image" => $src . "MrSGurunathan.png",
-        "name" => "Mr. Gurunathan",
+        "name" => "Mr. S. Gurunathan",
         "designation" => "Helper",
         "extension" => ""
     )
