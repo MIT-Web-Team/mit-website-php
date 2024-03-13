@@ -11,11 +11,11 @@ RewriteRule ^about$ src/pages/public/about.php [L]
 
 RewriteRule ^administration/deanoffice$ src/pages/public/administration/deanoffice.php [L]
 
-RewriteRule ^administration/maintenanceoffice$ src/pages/public/administration/maintenanceoffice.php [L]
-
 RewriteRule ^scholarships$ src/pages/public/scholarships.php [L]
 
 RewriteRule ^hods$ src/pages/public/hod.php [L]
+
+RewriteRule ^policies$ src/pages/public/policy.php [L]
 
 RewriteRule ^directors$ src/pages/public/directors.php [L]
 
