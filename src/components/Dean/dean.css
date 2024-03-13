@@ -34,15 +34,15 @@
   flex: 3;
   flex-direction: column;
   /* justify-content: center; */
-  padding: 75px 75px;
+  padding: 50px 50px;
   z-index: 1;
   width: 130%;
   font-family: 'Inter', sans-serif;
   /* border: red solid; */
 }
 .deanContent .deanTitle {
-  font-size: 46px;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight: 550;
   color: #0d1a2a;
   display: flex;
   flex-direction: column;
@@ -86,7 +86,7 @@
   background-color: #ffcf59;
   color: 0d1a2a;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 12px;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
 }
@@ -115,7 +115,7 @@
     padding: 40px;
     width: 100%;
     height: auto;
-    padding: 100px;
+    padding: 40px;
     /* border: red solid; */
   }
   .deanContent .deanTitle {
