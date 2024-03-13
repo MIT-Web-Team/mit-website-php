@@ -16,7 +16,7 @@
     transform: translateY(-100px);
 } */
 .vheading {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 800;
   margin-bottom: 0.2em;
   color: aliceblue;
@@ -111,7 +111,7 @@
 }
 
 .mission-main-card>.heading {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 800;
   margin-bottom: 0.2em;
   color: azure;
