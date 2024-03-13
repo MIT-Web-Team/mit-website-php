@@ -127,6 +127,6 @@ $footerContents = [
         </div>
     </div>
     <p class="footer-team-name">
-        Copyright © 2024 Madras Institute of Technology | Designed And Maintained by WebTeam MitIndia
+        Copyright © 2024 Dr. Kalam Computing Centre, MIT Campus | Developed and Maintained by Web Team, MIT Campus, Anna University
     </p>
 </footer>
