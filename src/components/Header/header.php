@@ -24,8 +24,8 @@
 						<li class="menu-items"><a class="" href="/">MIT Home</a></li>
 						<li class="menu-items"><a class="" href="https://www.annauniv.edu/">AU Home</a></li>
 						<li class="menu-items"><a class="" href="/about">About MIT</a></li>
-						<li class="menu-items"><a class="" href="/https://www.annauniv.edu/organogram.pdf">Organogram</a></li>
-						<li class="menu-items"><a class="" href="/src/assets/AU_Policy.pdf">Policies</a></li>
+						<li class="menu-items"><a class="" href="/src/assets/Organogram.pdf">Organogram</a></li>
+						<li class="menu-items"><a class="" href="/policies">Policies</a></li>
 					</ul>
 				</li>
 				<li class="menu-items">
@@ -55,11 +55,11 @@
 						</svg>
 					</button>
 					<ul class="dropdown  ">
-						<li class="menu-items"><a class="" target="_blank" href="https://www.annauniv.edu/#vcmsg">VC's Desk</a></li>
+						<li class="menu-items"><a class="" target="_blank" href="https://www.annauniv.edu/#vcmsg">Vice Chancellor</a></li>
 						<li class="menu-items"><a class="" target="_blank" href="https://www.annauniv.edu/administration.php">Registrar</a></li>
 						<li class="menu-items"><a class="" target="_blank" href="https://vidwan.inflibnet.ac.in/profile/117989">Dean</a></li>
-						<li class="menu-items"><a class="" href="/hods">Head of the Departments</a></li>
-						<li class="menu-items"><a class="" href="/directors">Centre Directors</a></li>
+						<li class="menu-items"><a class="" href="/hods">Heads of the Departments</a></li>
+						<li class="menu-items"><a class="" href="/directors">Centres Directors</a></li>
 						<li class="menu-items"><a class="" href="/administration/deanoffice">Dean Office Staff</a></li>
 					</ul>
 				</li>
